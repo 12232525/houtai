@@ -1,0 +1,89 @@
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#uxiconfont') format('svg');
+}
+
+.fl{float: left;}
+.fr{float:right;}
+.clear{clear: both;}
+.none{display: none;}
+label.error{color:red}
+.iconfont{
+    color: #A4A4A4;
+    font-family:"iconfont" !important;
+    font-size:24px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: bottom;
+}
+
+.f12{font-size: 12px}
+.f14{font-size: 14px}
+.f16{font-size: 16px}
+.f18{font-size: 18px;}
+.f20{font-size: 20px}
+.f22{font-size: 22px}
+.f24{font-size: 24px}
+.f26{font-size: 26px;}
+.f28{font-size: 28px}
+.f30{font-size: 30px}
+.f32{font-size: 32px}
+.f34{font-size: 34px}
+.f36{font-size: 36px}
+.f38{font-size: 38px}
+.f40{font-size: 40px}
+.f42{font-size: 42px}
+
+/*Margin*/
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.mr20{margin-right:20px;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.mb10{margin-bottom:10px;}
+/*Padding*/
+.p1{padding:1px;}
+.p5{padding:5px;}
+.p4{padding:4px;}
+.p9{padding:9px;}/*甯﹁竟妗�0px*/
+.p10{padding:10px;}
+.p15{padding:15px;}
+.p20{padding:20px;}
+.p30{padding:30px;}
+.pt5{padding-top:5px;}
+.pt10{padding-top:10px;}
+.pt15{padding-top:15px;}
+.pt20{padding-top:20px;}
+.pr5{padding-right:5px;}
+.pr10{padding-right:10px;}
+.pr15{padding-right:15px;}
+.pr20{padding-right:20px;}
+.pb5{padding-bottom:5px;}
+.pb10{padding-bottom:10px;}
+.pb15{padding-bottom:15px;}
+.pb20{padding-bottom:20px;}
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl15{padding-left:15px;}
+.pl20{padding-left:20px;}
+
+.cor1{color: #ff7200}
+.cor2{color: #FFFFFF}
+
+.ta-center{text-align:center;}
+.ta-left{text-align:left;}
+.ta-right{text-align:right;}
+
+

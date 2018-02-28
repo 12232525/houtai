@@ -1,0 +1,745 @@
+/*
+===================
+@explain: 系统后台框架结构
+===================
+*/
+body, div, dl, dt, dd, ul, ul li, form, p, th, td {margin: 0;padding: 0;}
+input, button{font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;}
+cite, em, strong, th {font-style: inherit;font-weight: inherit;}
+td, th, div {word-break:break-all;word-wrap:break-word;}
+table {border-collapse: collapse;border-spacing:0;}
+th {text-align: left;font-weight:100;}
+ul, ul li{list-style: none;}
+form {display:inline;}
+img {border: 0;}
+.placeholder{color:#999;}
+@font-face {font-family: 'iconfont'; 
+    src: url('../fonts/behind/iconfont.eot');
+    src: url('../fonts/behind/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/behind/iconfont.woff') format('woff'),
+    url('../fonts/behind/iconfont.ttf') format('truetype'),
+    url('../fonts/behind/iconfont.svg#uxiconfont') format('svg');
+}
+
+.fl{float: left;}
+.fr{float:right;}
+.clear{clear: both;}
+.none{display: none;}
+label.error{color:red}
+.iconfont{
+    color: #333;
+    font-family:"iconfont" !important;
+    font-size:24px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: bottom;
+}
+
+/*Margin*/
+.mt5{margin-top:5px!important; }
+.mt10{margin-top:10px!important;}
+.mt15{margin-top:15px!important;}
+.mt20{margin-top:20px!important;}
+.mt30{margin-top:30px!important;}
+.mr0{margin-right:0px!important;}
+.mr5{margin-right:5px!important;}
+.mr10{margin-right:10px!important;}
+.mr15{margin-right:15px!important;}
+.mr20{margin-right:20px!important;}
+.ml5{margin-left:5px!important;}
+.ml10{margin-left:10px!important;}
+.ml15{margin-left:15px!important;}
+.ml20{margin-left:20px!important;}
+.ml25{margin-left:25px!important;}
+.ml30{margin-left:30px!important;}
+.mb0{margin-bottom:0px!important;}
+.mb5{margin-bottom:5px!important;}
+.mb10{margin-bottom:10px!important;}
+.mb20{margin-bottom:20px!important;}
+
+.pt5{padding-top:5px!important; }
+.pt10{padding-top:10px!important;}
+.pt15{padding-top:15px!important;}
+.pt20{padding-top:20px!important;}
+.pt30{padding-top:30px!important;}
+.pr0{padding-right:0px!important;}
+.pr5{padding-right:5px!important;}
+.pr10{padding-right:10px!important;}
+.pr15{padding-right:15px!important;}
+.pr20{padding-right:20px!important;}
+.pl0{padding-left:0px!important;}
+.pl5{padding-left:5px!important;}
+.pl10{padding-left:10px!important;}
+.pl15{padding-left:15px!important;}
+.pl20{padding-left:20px!important;}
+.pl25{padding-left:25px!important;}
+.pl30{padding-left:30px!important;}
+.pb5{padding-bottom:5px!important;}
+.pb10{padding-bottom:10px!important;}
+.pb20{padding-bottop:20px!important;}
+
+.f10{font-size: 10px !important;}
+.f11{font-size: 11px !important;}
+.f12{font-size: 12px !important;}
+.f14{font-size: 14px !important;}
+.f16{font-size: 16px !important;}
+.f17{font-size: 17px !important;}
+.f18{font-size: 18px !important;}
+.f19{font-size: 19px !important;}
+.f20{font-size: 20px !important;}
+.f22{font-size: 22px !important;}
+.f24{font-size: 24px !important;}
+.f26{font-size: 26px !important;}
+.f28{font-size: 28px !important;}
+.f30{font-size: 30px !important;}
+.f32{font-size: 32px !important;}
+.f34{font-size: 34px !important;}
+.f36{font-size: 36px !important;}
+.f38{font-size: 38px !important;}
+.f40{font-size: 40px !important;}
+.f42{font-size: 42px !important;}
+
+.colorff{color:#fff}
+
+.fontwht{font-weight:500;}
+a:hover,a:focus{text-decoration: none;}
+.fontbold{font-weight: bold;}
+
+/*
+===================
+清除浮动
+* cc 作用于父模型
+===================
+*/
+.cc{
+	zoom:1;
+}
+.cc:after{
+	content:'\20';
+	display:block;
+	height:0;
+	clear:both;
+	visibility: hidden;
+}
+/*
+===================
+背景组合
+===================
+*/
+.tab td,
+.tabA_pre,
+.tabA_next,
+.tabA_pre_old,
+.tabA_next_old,
+.tabA li span,
+.tabA li .del,
+.menubar dt a,
+.menubar ul li a,
+.menuNext a,
+.search button,
+.options{
+	background: url(../images/admin/layout/bg.png);
+}
+/**
+.logo{
+	background: url(../images/admin/layout/logo.png) center center no-repeat;
+}
+*/
+/*
+===================
+结构
+===================
+*/
+html{
+	_background-image:url(../images/blank.gif);
+	background-attachment:fixed;
+	-webkit-text-size-adjust:none;
+}
+html,
+body {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	font-family: 'Microsoft YaHei','Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB',Arial,sans-serif;
+	color: #000;
+	font-size: 12px;
+	background: #f5f5f5;
+    background: -moz-linear-gradient(45deg, #f5f5f5 30px, #f5f5f5 30px), -moz-linear-gradient(135deg, transparent 30px, #f5f5f5 30px), -moz-linear-gradient(225deg, #f5f5f5 30px, #f5f5f5 30px), -moz-linear-gradient(315deg, transparent 30px, #f5f5f5 30px);
+    background: -o-linear-gradient(45deg, #f5f5f5 30px, #f5f5f5 30px), -o-linear-gradient(135deg, transparent 30px, #f5f5f5 30px), -o-linear-gradient(225deg, #f5f5f5 30px, #f5f5f5 30px), -o-linear-gradient(315deg, transparent 30px, #f5f5f5 30px);
+    background: -webkit-linear-gradient(45deg, #f5f5f5 30px, #f5f5f5 30px), -webkit-linear-gradient(135deg, transparent 30px, #f5f5f5 30px), -webkit-linear-gradient(225deg, #f5f5f5 30px, #f5f5f5 30px), -webkit-linear-gradient(315deg, transparent 30px, #f5f5f5 30px);
+	line-height:1.5;
+}
+iframe {
+	height: 100%;
+	width: 100%;
+	background:#f9f9f9
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+.wrap {
+	min-width: 880px;
+}
+/*
+===================
+头部
+===================
+*/
+/* Base class
+------------------------- */
+.head {
+  position: relative;
+  color: #fff;
+  widows: 100%;
+  display: block;
+  text-align: center;
+  background: #020031; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #020031 0%, #6d3353 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* IE10+ */
+  background: linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+/* Link styles (used on .masthead-links as well) */
+
+/* Pattern overlay
+------------------------- */
+.head .head_container {
+  position: relative;
+  z-index: 2;
+}
+.head:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../images/admin/bs-docs-masthead-pattern.png) repeat center center;
+  opacity: .4;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1) {
+
+  .head:after {
+    background-size: 150px 150px;
+  }
+}
+
+.portrait{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+.dropdown{
+}
+
+.dropdown .arrow,
+.dropdown .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid
+}
+
+.dropdown .arrow {
+    border-width: 11px
+}
+
+.dropdown .arrow:after {
+    border-width: 10px;
+    content: ""
+}
+.dropdown.bottom .arrow {
+    top: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-bottom-color: #999;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+    border-top-width: 0
+}
+
+.dropdown.bottom .arrow:after {
+    top: 1px;
+    margin-left: -10px;
+    border-bottom-color: #fff;
+    border-top-width: 0
+}
+.wrap table tbody{
+}
+/**
+.head {
+	height: 90px;
+	//background:#235179 url(../images/admin/layout/bg.jpg);
+	//background: radial-gradient(circle at 8.75% 8.45%, #003973, transparent 100%), radial-gradient(circle at 194.06% 82.83%, #E5E5BE, transparent 100%), radial-gradient(circle at 50% 50%, #668cc2, #668cc2 100%);
+	background: #205081;
+	overflow: hidden;
+	widows: 100%;
+	display: block;
+}
+.logo {
+	display: block;
+	width: 180px;
+	height: 50px;
+	overflow: hidden;
+	text-indent: -2000em;
+	padding:10px 10px;
+}
+.nav #J_B_main_block{
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.nav #J_B_main_block ul {
+	float: left;
+}
+.nav #J_B_main_block li {
+	float: left;
+	line-height: 33px;
+}
+.nav #J_B_main_block li a {
+	float: left;
+	display: block;
+	font-size: 16px;
+	color: #b5d4ea;
+	padding:0 15px;
+	text-align: center;
+}
+.nav #J_B_main_block li a .iconfont{color:#999;}
+.nav #J_B_main_block li.current a, .nav #J_B_main_block li.current a .iconfont{
+	color:#fff;
+}
+.nav #J_B_main_block li a:hover {
+	color:#fff;
+}
+.login_info {
+	float: right;
+	font-size: 12px;
+	color: #fff;
+	padding:20px 20px 5px 20px;
+	white-space: nowrap;
+}
+.login_info a {
+	color: #fff;
+}
+.login_info a .iconfont{box-shadow: none;}
+.login_info a:hover {
+}
+.login_info a.home{
+	background:#446d91;
+	border-radius:2px;
+	display:inline-block;
+	margin-right:15px;
+	padding:0 7px;
+	line-height:22px;
+}*/
+/*
+===================
+面包屑
+===================
+*/
+#breadCrumb{
+	position:absolute;
+	font-size:12px;
+	padding:10px 20px;
+}
+/*
+===================
+左侧菜单
+===================
+*/
+.content th {
+	vertical-align: top;
+	font-weight: 100;
+}
+#B_frame{
+}
+.submenu{font-size:13px;}
+.menubar {
+	padding:10px 0;
+	overflow: hidden;
+	font-weight: 100;
+}
+.menubar dl {
+	padding: 0;
+	margin: 0;
+}
+.menubar dt {
+	font-size: 14px;
+	margin: 2px 0;
+	font-weight:bold;
+}
+.menubar dt a {
+	display: block;
+	line-height: 25px;
+	height: 25px;
+	overflow: hidden;
+	padding: 0 10px 0 30px;
+	background-position:-265px 9px;
+	background-repeat:no-repeat;
+}
+.menubar dt a:hover {
+	background-color: #e9e9e9;
+}
+
+.menubar dt.current2 a{
+	background-position:-265px -11px;
+}
+
+.menubar dt.current a{
+	background-color: #dbdada;
+	background-position:-265px -11px;
+}
+.menubar li.current a{
+	background-color: #dbdada;
+}
+.menubar dd {
+	padding-left: 16px;
+}
+.menubar ul li {
+	padding: 0;
+}
+.menubar ul li a {
+	display: block;
+	line-height:22px;
+	height:22px;
+	overflow: hidden;
+	padding: 2px 10px 0 20px;
+	font-size: 12px;
+	background-position:-270px -30px;
+	background-repeat:no-repeat;
+}
+.menubar ul li a:hover{
+	background-color: #e9e9e9;
+}
+/*
+===================
+左侧菜滚动切换
+===================
+*/
+.menuNext {
+	height: 21px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 140px;
+}
+.menuNext a {
+	float: left;
+	width: 70px;
+	height: 21px;
+	text-indent: -2000em;
+	overflow: hidden;
+}
+.menuNext a.pre{
+	background-position:0 -30px;
+}
+.menuNext a.next{
+	background-position:-70px -30px;
+}
+.menuNext a.pre:hover {
+	background-position: 0 -60px;
+}
+.menuNext a.next:hover {
+	background-position: -70px -60px;
+}
+.menuNext a.pre_old,
+.menuNext a.pre_old:hover {
+	background-position: 0 -90px;
+}
+.menuNext a.next_old,
+.menuNext a.next_old:hover {
+	background-position: -70px -90px;
+}
+/*
+===================
+选项区域
+===================
+*/
+.tab th,
+.tab td {
+	height: 30px;
+}
+.tab th {
+	background: #f8f8f8;
+	padding:5px 0px 0px 5px;
+	font-weight: 100;
+}
+.tab td {
+	vertical-align: top;
+	padding: 0;
+}
+/*
+===================
+搜索
+===================
+*/
+.search {
+	height:22px;
+	width: 160px;
+	overflow: hidden;
+	padding: 0;
+	border:1px solid #e5e5e5;
+	background:#fff;
+	position:relative;
+}
+.search input {
+	left:0;
+	border: 0 none;
+	padding:0 5px;
+	font: 12px Arial;
+	vertical-align: middle;
+	width: 135px;
+	background:none;
+	position:absolute;
+	border-radius: 0;
+	border: none;
+	box-shadow:none;
+}
+.search input:focus{
+	outline:0 none;
+}
+.search button {
+	position:absolute;
+	top:3px;
+	right:5px;
+	border: 0 none;
+	height: 16px;
+	cursor: pointer;
+	width: 22px;
+	text-indent:-2000em;
+	overflow:hidden;
+	background-position:-95px 1px;
+}
+.gray {
+	color: #999;
+}
+/*
+===================
+选项卡
+===================
+*/
+.tab td{
+	background-position:0 -200px;
+	background-color:#f7f7f7;
+}
+.tabA{
+	position:relative;
+	height:30px;
+}
+.tabA ul {
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+	width:10000px;
+	border-right: 1px solid #dedede;
+}
+.tabA li {
+	float: left;
+	font-size: 12px;
+	border-left: 1px solid #dedede;
+}
+.tabA li span {
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	padding: 0 10px 0 15px;
+	float: left;
+	white-space: nowrap;
+	cursor: pointer;
+	background-position: 999px 999px;
+}
+.tabA li span:hover {
+	background-position: 0 -240px;
+}
+.tabA li a {
+	outline: none;
+	float: left;
+	font-style: normal;
+	color: #666;
+	padding-right: 8px;
+}
+.tabA li a:hover {
+	color: #000;
+}
+.tabA li:focus{
+}
+.tabA li .del {
+	width: 7px;
+	height: 7px;
+	overflow: hidden;
+	display: block;
+	text-indent: -2000em;
+	background-position: -130px 0;
+	margin: 11px 0 0 0;
+	position: relative;
+	padding: 0;
+}
+.tabA li .del:hover {
+	background-position: -137px 0;
+}
+.tabA li.current .del {
+	background-position: -144px 0;
+}
+.tabA li.current .del:hover {
+	background-position: -151px 0;
+}
+.tabA li.current{
+	border-color:#11629A;
+}
+.tabA li.current span {
+	background:#0f6099;
+	background-position: 0 -240px;
+}
+.tabA li.current a,
+.tabA li.current a:hover{
+	font-weight: 100;
+	color: #fff;
+}
+.tabA .fr {
+	margin-top: 10px;
+}
+.tabA_pre,
+.tabA_next,
+.tabA_pre_old,
+.tabA_next_old {
+	width: 24px;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	text-indent: -2000em;
+	position:absolute;
+}
+.tabA_pre {
+	background-position: 0 0;
+	left:-1px;
+	top:0;
+	border-left:solid 1px #ccc;
+}
+.tabA_next {
+	background-position: -25px 0;
+	right:20px;
+	top:0;
+}
+.tabA_pre_old {
+	background-position: -50px 0;
+	left:0;
+	top:0;
+}
+.tabA_next_old {
+	background-position: -75px 0;
+	right:0;
+	top:0;
+}
+/*
+===================
+内容区域管理
+===================
+*/
+.options {
+	position: absolute;
+	width:54px;
+	height:22px;
+	right: 25px;
+	top: 93px;
+	background-position:-180px 0;
+}
+.options a{
+	float:left;
+	height:22px;
+	line-height:22px;
+	width:27px;
+}
+.refresh,
+.full_screen{
+	//text-indent:-2000em;
+	overflow:hidden;
+}
+/*刷新*/
+.refresh{
+	//background-position:-243px -27px;
+}
+/*全屏*/
+.full_screen{
+	//background-position:-173px -25px;
+}
+/*
+===================
+关闭js提醒
+===================
+*/
+.noscript {
+	background: #fffbbb;
+	line-height: 20px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding:0;
+	margin:0;
+}
+/*
+===================
+加载状态
+===================
+*/
+.loading{
+	border:1px solid #e4e4e4;
+	background:#fffde3;
+	line-height:100%;
+	padding: 6px 10px;
+	position:absolute;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 0 0 5px #e4e4e4;
+	-webkit-box-shadow: 0 0 5px #e4e4e4;
+	color:#222;
+	font-weight:700;
+	font-size:14px;
+	margin-left:10px;
+	top:85px;
+}
+
+
+div#popMsg {
+  z-index:99999;
+  right: 0px;
+  bottom: 2px;
+  width: 200px;
+  border-right: #455690 1px solid;
+  border-top: #a6b4cf 1px solid;
+  border-left: #a6b4cf 1px solid;
+  border-bottom: #455690 1px solid;
+  visibility: hidden;
+  display: none;
+  position: fixed;
+  background-color: #ccc;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(opacity=.65);
+  opacity: 0.65;
+}
+
+* html div#popMsg {
+  position:absolute;
+}
+
+#popMsgContent {
+  border-top: #728eb8 1px solid;
+  padding: 5px 10px;
+}

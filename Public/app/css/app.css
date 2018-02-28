@@ -1,0 +1,3946 @@
+.weui-grid__icon{
+	width: auto;
+	height: auto;
+}
+.weui-grids:before,.weui-grid:before,.weui-grid:after{
+	border: none;
+}
+.weui-grid{
+	padding: 10px;
+}
+.weui-tabbar ul{
+	width:100%;
+}
+.weui-tabbar ul li{
+	width: 25%;
+	float: left;
+	position: relative;
+}
+.iconfont {
+	font-size: 1.2rem;
+	vertical-align: middle;
+}
+.weui-bar__item_on i,.weui-bar__item_on p{
+	color: #025FEC !important;
+}
+.content-app ul:after{
+    top: 0;
+}
+
+.content-app ul:after,.content-app ul li:after{
+    content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.content-app2 ul:after,.content-app2 ul li:after{
+    content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-top: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.content-app3 ul li:before{
+    content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.content-app3 ul li:after{
+    content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.content-app3 ul:first-child:before{
+    border: none;
+}
+.content-app4 ul:after,.content-app4 ul li:after{
+    content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.content-app4 ul:first-child:before{
+    border: none;
+}
+.content-app5 ul li:before{
+    content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 1px;
+	border-top: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.content-app5 ul li:after{
+    content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.content-app5 ul li:first-child:before{
+    border: none;
+}
+.content-app6 ul li:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+.content-series a:before{
+	content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 1px;
+	border-top: 1px solid #d9d9d9;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+
+.bordertop-none:after{
+	border-top: none !important;
+}
+html{
+	color: #025FEC;
+}
+i{
+	font-style: normal !important;
+}
+.content-padded {
+  margin: 0.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.disable{
+    background: #999 !important;
+}
+/* 定义颜色 */
+.page .content .red{
+	color: red;
+}
+.light-red{
+    color: #007AFF !important;
+}
+.page .content .blue{
+	color: #2165D2;
+}
+.page .content .orange{
+	color: #F19149;
+}
+.page .content .yellow{
+    color: #F9C13A;
+}
+.page .content .grey{
+	color: #999;
+}
+.page .content .green{
+    color: #2BC86C;
+}
+input::-webkit-input-placeholder{
+    color: #ccc;
+}
+/* 头部固定导航改色 */
+/* 加个头部开始 */
+.top{
+    height: 0.5rem;
+}
+.bar-top{
+    height: 3rem;
+}
+.content{
+    top: 3rem;
+    padding-bottom: 3.4rem !important;
+}
+/* 加个头部结束*/
+.bar-nav{
+	background: #025FEC;
+}
+.bar-nav .title{
+	color: #fff;
+}
+.bar-nav a.pull-left,.bar-nav a.pull-right{
+	color: #fff;
+	line-height: 2.2rem;
+    position: relative;
+    z-index: 99;
+}
+.bar-nav a.pull-right{
+    padding: 0 0.2rem;
+}
+
+.picker-modal .bar{
+	background: #f7f7f8;
+}
+.list-block .item-link .item-inner {
+    padding-right: 1.5rem;
+    background-image: url(../images/arrow.png);
+}
+/* 头部切换栏固定开始 */
+.fixedButton{
+    position:absolute;
+    top:3rem;
+    left:0;
+    right:0;
+    z-index:100;
+}
+/* 头部切换栏固定结束 */
+/* 下拉箭头样式开始 */
+.list-block .item-linkDown .item-inner {
+    padding-right: 1.5rem;
+    background-image: url(../images/icon/arrowDown.png);
+    background-size: 0.7rem;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-position: -webkit-calc(100% - 1.2rem) center;
+    background-position: calc(100% - 1.2rem) center;
+}
+/* 下拉箭头样式结束 */
+/* 三个点更多样式开始 */
+.pulldown {
+    position: absolute;
+    display: none; 
+    top: 2.99rem;
+    right: 0.5rem;
+    width: auto;
+    z-index: 9999;
+    background: #025FEC;
+    padding-left: 0;
+    border-radius: 3px;
+}
+.pulldown li{
+    border-bottom: 1px solid #8ac0e8;   
+}
+.pulldown li:last-child{
+    border-bottom: none;
+}
+.pulldown:before{
+    content: '\e623';
+    font-family: 'iconfont';
+    position: absolute;
+    right: 0.3rem;
+    top: -1.10rem;
+    color:#025FEC;
+    font-size: 1rem;
+}
+.pulldown.current{
+    display: block;
+}
+.pulldown li a{
+    padding: 0 0.5rem;
+    display: block;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    color: #fff;
+    font-size: 0.7rem;
+}
+.pulldown li a i{
+    margin-right: 0.5rem;
+}
+/* 三个点更多样式结束 */
+/* 车牌号省份选择样式开始 */
+.cardBox{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    min-height: 2.2rem;
+    bottom: 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #E5E5E5;
+    padding: .2rem 0;
+    display: none;
+}
+.cardBox ul{
+    overflow: hidden;
+    margin: 0;
+    padding-left: 0;
+}
+.cardBox ul li{
+    float: left;
+    width: 14.25%;
+    padding: .6rem;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cardBox ul li span{
+    background: #ffffff;
+    padding: .35rem 0.5rem;
+    -moz-box-shadow:0px 2px 2px #ccc;
+    -webkit-box-shadow:0px 2px 2px #ccc;
+    box-shadow:0px 2px 2px #ccc;
+    border-radius: 2px;
+}
+.cardBox ul li.current span{
+    background: #025FEC;
+    color: #ffffff;
+}
+.cardBtn{
+    position: absolute;
+    height: 2.15rem;
+    right: 4.5rem;
+    padding-left: 1rem;
+}
+.cardBtn .selectTag{
+    line-height: 2.15rem;
+    display: inline-block;
+}
+.cardBtn .selectTag span{
+    line-height: 2.15rem;
+    display: inline-block;
+}
+.cardBtn .selectTag i{
+    font-size: 0.7rem;
+    margin-left: 0.3rem;
+}
+/* 车牌号省份选择样式结束 */
+/* 单位选择样式开始 */
+.unitBox ul li{
+    width: 16.5%;
+}
+.unitBox ul li span{
+    display: inline-block;
+    width: 1.8rem;
+    padding: 0.3rem 0;
+}
+/* 单位选择样式结束 */
+/* 头部搜索栏样式开始 */
+.bar-search .pull-left{
+    width: 20%;
+}
+.bar-search .pull-center{
+    float: left;
+    position: relative;
+    width: 58%;
+    height: 2.2rem;
+}
+.bar-search .pill-pop{
+    float: left;
+    color: #fff;
+    line-height: 2.2rem;
+    width: 12%;
+    text-align: center;
+}
+.bar-search .pull-center .searchLabel {
+    font-family: 'iconfont';
+    position: absolute;
+    color: #b4b4b4;
+    top: 50%;
+    margin-top: -0.6rem;
+    left: 0.2rem;
+}
+.bar-search .pull-center input{
+    margin-top: 0.4rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    padding-left: 1.2rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+.bar-search .pull-center input::-webkit-input-placeholder{
+    font-size: 0.65rem;
+}
+.bar-search .pull-right{
+    width: 8%;
+    text-align: right;
+}
+.searchPop{
+    display: none;
+    background: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    top: 3.2rem;
+    left: 0;
+    padding: 0 0.5rem;
+    padding-bottom: 3rem;
+    bottom: auto;
+}
+.searchPop.current{
+    display: block;
+    padding-bottom: 3rem;
+}
+.searchPop .row{
+    padding-top: 0.75rem;
+    margin-left: 0;
+}
+.searchPop .row .col-37{
+    width: 37%;
+    border: 1px solid #ccc;
+    height: 1.5rem;
+    border-radius: 3px;
+}
+.searchPop .row input.col-37::-webkit-input-placeholder{
+    font-size: 0.7rem;
+}
+.searchPop .row .col-20{
+    width: 20%;
+    margin-left: 0;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+}
+.searchPop .row .col-6{
+    width: 6%;
+    margin-left: 0;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.searchItemType,.searchItemPerson{
+    overflow: hidden;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+.searchItemType .searchTitle,.searchItemPerson .searchTitle{
+    float: left;
+    width: 20%;
+    line-height: 1.8rem;
+}
+.searchItemType ul,.searchItemPerson ul{
+    overflow: hidden;
+    float: none;
+    margin: 0;
+    padding-left: 0;
+}
+.searchItemType ul li,.searchItemPerson ul li{
+    float: left;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.searchItemType ul li:first-child,.searchItemPerson ul li:first-child{
+    margin-left: 0;
+}
+.searchItemType ul li span,.searchItemPerson ul li span{
+    background: #EDEDED;
+    display: inline-block;
+    line-height: 1.2rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+}
+.searchItemType ul li span.current,.searchItemPerson ul li span.current{
+    background: #025FEC;
+    color: #fff;
+}
+.searchPop .searchButton{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 3px 10px;
+    background: #025FEC;
+    border: none;
+    color: #fff;
+    position: absolute;
+    right: 0.5rem;
+    border-radius: 2px;
+}
+.bar-onlySearch .pull-center{
+    width: 70%;
+}
+/* 头部搜索栏样式结束 */
+/* 首页样式开始 */
+.adviser{
+    background: #fff !important;
+}
+.adviser-content .adviser-bg{
+    /*background: #025FEC; */
+    background: url(../images/index.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.adviser-content .adviser-bg .list-block{
+    margin: 0;
+}
+.adviser-content .adviser-bg .item-content{
+    padding-left: 1.5rem;
+}
+.adviser-content .adviser-bg .item-content .item-media img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: .1rem solid #f8f8f8;
+    background:#f8f8f8;
+}
+.adviser-content .adviser-bg .list-block .item-inner{
+    padding-top: 1rem;
+}
+.adviser-content .adviser-bg .list-block .item-inner .item-title{
+    line-height: 1.5rem;
+    color: #fff;
+}
+.adviser-content .adviser-bg .list-block .item-inner .item-subtitle{
+    line-height: 1.2rem;
+    color: #fff;
+}
+.adviser-text{
+    background: #f2f2f2;
+    margin-top: -0.35rem;
+    position: relative;
+    height: 2.7rem;
+    width: 100%;
+    margin-bottom: 0;
+    z-index: 99;
+    line-height: 1.5rem;
+}
+.adviser-text .row{
+	height: 100%;
+	margin-left: 0;
+}
+.adviser-text .row .col-25{
+	height: 100%;
+    padding: 0.2rem 0;
+    width: 25%;
+    margin: 0;
+    position: relative;
+}
+.adviser-text .row .col-25:after{
+    position: absolute;
+    content: '';
+    right: 0;
+    height: 3.8rem;
+    top: 0.4rem;
+    border-right: 1px solid #DEDEDE;
+	color: #d9d9d9;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+.adviser-text .row .col-25:last-child:after{
+    border: none;
+}
+.adviser-text .row .col-25 p{
+	color: #333;
+    margin: 0;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.adviser-text .row .col-25 p.link{
+    color: #025FEC;
+}
+.adviser-text .row .col-25 p.text-one{
+    font-size: 0.7rem;
+}
+.adviser-text .row .col-25 p.text-two{
+    color: red;
+}
+.weui-grids a span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/cat.png) no-repeat;
+    background-size: 180px auto;
+    margin: 0 auto;
+}
+.weui-grids a p{
+    margin: 0.2rem 0;
+}
+.kxmrkd{
+    background-position: -60px 0!important;
+}
+.xckd{
+    background-position: -120px 0!important;
+}
+.gdcx{
+    background-position: 0 -60px!important;
+}
+.kccx{
+    background-position: -60px -60px!important;
+}
+.khcx{
+     background-position:-120px -60px!important;
+}
+.wxyy{
+    background-position:0  -120px!important;
+}
+.hycx{
+    background-position:-60px  -120px!important;
+}
+.hfrw{
+    background-position:-120px  -120px!important;
+}
+.bar-tab .tab-item .icon{
+    font-size: 1.1rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+.bar-tab {
+  bottom: 55px;
+  width: 100%;
+  height: 2.7rem;
+  padding: 0;
+  table-layout: fixed;
+}
+.bar-tab:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: auto;
+  right: auto;
+  height: 1px;
+  width: 100%;
+  background-color: #e7e7e7;
+  display: block;
+  z-index: 15;
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+}
+.ulBox{
+    margin-top: 0;
+    padding-left: 0;
+}
+//底部menu
+.weui-tabbar .tab-item {
+  position: relative;
+  display: table-cell;
+  color: #929292;
+  text-align: center;
+  vertical-align: middle;
+}
+.weui-tabbar .tab-item.active,
+.weui-tabbar .tab-item:active {
+  color: #025FEC ;
+}
+.weui-tabbar .tab-item .badge {
+  position: absolute;
+  top: .1rem;
+  left: 50%;
+  z-index: 100;
+  height: .8rem;
+  min-width: .8rem;
+  padding: 0 .2rem;
+  font-size: .6rem;
+  line-height: .8rem;
+  color: white;
+  vertical-align: top;
+  background: red;
+  border-radius: .5rem;
+  margin-left: .1rem;
+}
+.weui-tabbar .tab-item .icon {
+  top: 0.05rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.weui-tabbar .tab-item .icon ~ .tab-label {
+  display: block;
+  font-size: 0.55rem;
+  position: relative;
+  top: 0.15rem;
+}
+.nav li>a.on + dl{
+    display: block;
+}
+.nav dl{
+    display:none;
+    position:absolute;
+    z-index:220;
+    bottom:3.2rem;
+    left:50%;
+    width:auto;
+    margin-left:-2rem;
+    background:red;
+    background:#333;
+    border-radius:5px;
+    -webkit-box-shadow:inset 0 0 3px #fff;
+    background:url(../images/nav.svg#3) no-repeat center center;
+    -webkit-background-size:100%;
+    background-size:100%;
+}
+.nav dl.dl-on{
+	display: block !important;
+}
+.nav dl.dl-reception{
+    margin-left: -2rem;
+}
+.nav dl.dl-search dd span{
+    margin: 0 0.4rem;
+}
+.nav dl.dl-analysis dd span{
+    margin: 0 0.2rem;
+}
+.nav dl.dl-more{
+    margin-left: -2rem;
+}
+.nav dl.dl-more dd span{
+    margin: 0 0.4rem;
+}
+.nav dl:before{
+    content:"";
+    display:inline-block;
+    position:absolute;
+    z-index:240;
+    bottom:0;
+    left:50%;
+    width:10px;
+    height:8px;
+    background: url(../images/bot.svg) no-repeat center -55px;
+    -webkit-background-size: 10px auto;
+    bottom: -7px;
+    margin-left: -5px;
+}
+.nav dl dd{
+    margin-left: 0;
+    line-height:1.8rem;
+    text-align:center;
+    background:-webkit-gradient(linear, 0 0, 100% 0, from(rgba(194,194,194,0.2)), to(rgba(194,194,194,0.4)), color-stop(50%, rgba(194,194,194,0.8)));
+    background-size:80% 1px;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+}
+.nav dl dd:last-of-type{
+    background:none;
+}
+.nav dl dd a{
+    font-size: 0.7rem;
+    display:block;
+    color:#333;
+    text-shadow:0px 1px 0px #ffffff;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.nav dl dd a:active{
+     color: #025FEC;
+}
+.nav dl dd a span{
+    padding: 0 0.2rem;
+}
+.nav .masklayer_div{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 180;
+    background: rgba(0,0,0,0);
+}
+.nav .masklayer_div.on{display: block;}
+/* 服务顾问首页样式结束 */
+/* 老板首页样式开始 */
+.fixBg{
+    height: 1rem;
+    /* background:#036CAD url(../images/fixbg.jpg); */
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.fixBg.current{
+    background:#f2f2f2;
+    display: block;
+}
+.content-Boss .buttons-tab{
+    background: #f2f2f2;
+    border-top: 1px solid #E5E5E5;
+}
+.content-Boss .Boss-bg{
+    /* background: #025FEC; */
+    background: url(../images/homebg.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 2.2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.content-Boss .Boss-bg .list-block{
+    margin: 0;
+}
+.content-Boss .Boss-bg .item-content{
+    padding-left: 1.5rem;
+}
+.content-Boss .Boss-bg .item-content .item-media img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: .2rem solid #007aff;
+    /* margin: 1.2rem 0 0.3rem 0; */
+}
+.content-Boss .Boss-bg .list-block .item-inner{
+    padding-top: 1rem;
+}
+.content-Boss .Boss-bg .list-block .item-inner .item-title{
+    line-height: 1.5rem;
+    color: #fff;
+}
+.content-Boss .Boss-bg .list-block .item-inner .item-subtitle{
+    line-height: 1.2rem;
+    color: #fff;
+}
+.content-Boss .content-block{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+.content-Boss .content-block h4{
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+.content-Boss .content-block .tabs .tab{
+    margin-bottom: 2.9rem;
+}
+.content-Boss .content-block .content-block .list-block{
+    margin: 0;
+}
+.content-Boss .content-block  .circle-block{
+    background: #fff;
+    padding: 0.5rem 0;
+    overflow: hidden;
+    padding-top: 0.75rem;
+}
+.content-Boss .content-block .circle-block li{
+    width: 50%;
+    float: left; 
+    margin-bottom: 0.5rem;
+}
+.content-Boss .content-block .circle-block li .content-block{
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+    background: pink;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.content-Boss .content-block .circle-block li .content-block .content-block-center{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 0 1rem;
+}
+.content-Boss .content-block .circle-block li.circle-block-one .content-block{
+    background: rgba(0,122,255,0.4);
+}
+.content-Boss .content-block .circle-block li.circle-block-one .content-block .content-block-center{   
+    background: #f8f8f8;  
+}
+.content-Boss .content-block .circle-block li span{
+    margin-top: 1rem;
+}
+.content-Boss .content-block .circle-block li.circle-block-two .content-block{
+    background: rgba(0,122,255,0.4);
+}
+.content-Boss .content-block .circle-block li.circle-block-two .content-block .content-block-center{
+    background: #f8f8f8;
+}
+.content-Boss .content-block .circle-block li.circle-block-three .content-block{
+    background: rgba(0,122,255,0.2);
+}
+.content-Boss .content-block .circle-block li.circle-block-three .content-block .content-block-center{
+    
+    background: #f8f8f8;
+}
+.content-Boss .content-block .circle-block li.circle-block-four .content-block{
+    background: rgba(0,122,255,0.2);
+}
+.content-Boss .content-block .circle-block li.circle-block-four .content-block .content-block-center{
+    background: #f8f8f8;
+}
+.content-Boss .content-pie{
+    margin-bottom: 3.2rem;
+    /* background: #fff; */
+}
+.content-Boss .content-pie ul{
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding:0.5rem 0.2rem;
+    margin-bottom: 0;
+}
+.content-Boss .content-pie ul li{
+    float: left;
+    width: 31%;
+    margin: 0 0.8%;
+    line-height: 1.5rem;
+    font-size: 0.55rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.content-Boss .content-pie ul li:last-child{
+    width: 33%;
+}
+.content-Boss .content-pie ul li.current{
+    background: #025FEC;
+    color: #fff;
+    border: none;
+}
+.content-Boss .content-pie ul li p{
+    margin:0;
+    line-height: 1rem;
+}
+.content-Boss .content-block .show-block{
+    background: #fff;
+    padding: 0.5rem 0;
+    overflow: hidden;
+    padding-top: 0.75rem;
+}
+.content-Boss .content-block .show-block li{
+    width: 50%;
+    float: left; 
+    margin-bottom: 0.5rem;
+}
+.content-Boss .content-block .show-block li .content-block{
+    margin: 0 0.5rem;
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: #FFFFFF;
+}
+.content-Boss .content-block .show-block li.show-block-car .content-block{
+    background: #32B991;
+}
+.content-Boss .content-block .show-block li.show-block-income .content-block{
+    background: #B4C55C;
+}
+.content-Boss .content-block .show-block li.show-block-profit .content-block{
+    background: #FFA300;
+}
+.content-Boss .content-block .show-block li.show-block-cost .content-block{
+    background: #FF555B;
+}
+.content-Boss .content-block .show-block li .content-block .row{
+    text-align: center;
+}
+.content-Boss .content-block .show-block li .content-block .row i{
+    font-size: 1.5rem;
+}
+.content-Boss .content-block .show-block li .content-block .row span{
+    display: inline-block;
+    width: 100%;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+.content-Boss .content-block .show-block li .content-block .row h4{
+    display: inline-block;
+    width: 100%;
+}
+.content-Boss .content-block .content-block .row-fee{
+    background: #fff;
+    padding: 0.5rem 0.75rem;
+}
+.content-Boss .content-block .content-block .row-fee .fee{
+    width: 4rem;
+    height: 4rem;
+    background: #f970c1;
+    border-radius: 50%; 
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+.content-Boss .content-block .content-block .row-fee .fix-income{
+    background: #7596ff;
+}
+.content-Boss .content-block .content-block .row-fee .vipcard-income{
+    background: #ff8b1d;
+}
+.content-Boss .content-block .content-block .row-fee .fee span{
+    display: inline-block;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+}
+.content-Boss .content-block .content-block .row-fee .fee:first-child{
+    padding-top: 0.5rem;
+}
+.content-Boss .content-block .content-block .chart{
+    margin-bottom: 0.5rem;
+}
+.content-Boss .content-block .highSearch{
+    background:#fff;
+    height:5rem;
+    padding:1rem 0.5rem;
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    border-bottom:1px solid #999;
+    /* box-shadow: -0px 5px 10px #666; */
+}
+.content-Boss .content-block .highSearch.current{
+    display: block;
+}
+.content-Boss .content-block .highSearch .row{
+    margin-left: 0;
+}
+.content-Boss .content-block .highSearch .col-45{
+    width: 45%;
+    border:1px solid #ccc;
+    height:1.5rem;
+    border-radius:3px;
+}
+.content-Boss .content-block .highSearch .col-10{
+    width: 10%;
+    margin-left: 0;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.content-Boss .content-block .highSearch .searchBtn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:2px 8px;
+    background:#025FEC;
+    border:none;
+    color:#fff;
+    position: absolute;
+    bottom:0.5rem;
+    right: 0.75rem;
+    border-radius: 2px;
+}
+.content-Boss .tab-more-button .dateTip{
+    position: absolute;
+    top: 50%;
+    margin-top: -0.7rem;
+    left: 0;
+    display: none;
+}
+.content-Boss .tab-more-button .dateTip.current{
+    display: block;
+}
+.content-Boss .tab-more-button .dateTip p{
+    margin: 0;
+    line-height: 0.8rem;
+    font-size: 0.45rem;
+}
+/* 老板首页样式结束 */
+/* 入库金额明细样式开始 */
+.content-enterMonry .list-block{
+    margin-top: 0;
+}
+.content-enterMonry .list-block ul li{
+}
+.content-enterMonry .list-block .item-media i{
+    color: #F4BD00;
+    font-size: 1.5rem;
+}
+/* 维修开单-接车信息页面样式开始 */
+.content.content-receptionCarInfo{
+    top: 3.4rem;
+}
+.content-receptionCarInfo .content-block{
+    margin-top: 0.5rem;
+    padding: 0;
+}
+.content-receptionCarInfo .content-tab{
+    display: none;
+}
+.content-receptionCarInfo .content-tab.current{
+    display: block;
+}
+.content-receptionCarInfo .content-block .tabs .content-block{
+    padding: 0;
+}
+.content-receptionCarInfo .buttons-tab .button{
+    font-size: 0.75rem;
+}
+.content-receptionCarInfo .content-block .tabs .content-block .list-block{
+    margin-top: 0;
+}
+/* .content-receptionCarInfo .content-block-tab1{
+    margin: 0 0.5rem;
+} */
+.content-receptionCarInfo .content-block-tab1{
+    margin: 0;
+}
+
+.content-receptionCarInfo ul{
+    margin-bottom: 1rem;
+}
+
+.content-receptionCarInfo ul li:first-child:before,.content-reservaticon ul li:first-child:before  {
+	display: none
+}
+
+.content-receptionCarInfo ul li:last-child,.content-reservaticon ul li:last-child{
+    border-bottom: 0;
+}
+.content-receptionCarInfo ul .item-media .icon,.content-reservaticon ul .item-media .icon{
+    color: #2165D2;
+    font-size: 0.9rem;
+}
+.content-receptionCarInfo ul li .item-content .item-inner,.content-reservaticon ul li .item-content .item-inner{
+    margin-left: 0.3rem;
+    padding-right: 0.5rem;
+}
+.content-receptionCarInfo .list-block .item-title.label{
+    color: #333;
+    width: auto;
+}
+.content-receptionCarInfo ul li .item-content .item-inner .item-afterInput{
+    padding-right: 1.6rem;
+}
+.content-receptionCarInfo ul li .item-content .item-inner .item-afterInput:after{
+    content: '公里';
+    position: absolute;
+    right: 0.6rem;
+    font-size: 0.75rem;
+    top: 50%;
+    margin-top: -0.55rem;    
+}
+.content-receptionCarInfo .list-block .item-content{
+    padding-left: 0.5rem;
+}
+.content-receptionCarInfo ul li .item-content .item-inner .item-input input{
+    text-align: right;
+}
+.content-receptionCarInfo ul li .item-content .item-inner .item-input input.carNumInput{
+    text-align: left;
+    width: 3.5rem;
+    float: right;
+}
+.content-receptionCarInfo .list-block .item-link .item-inner{
+    background-position: calc(100% - 0.5rem) center;
+}
+.content-receptionCarInfo .list-block .item-link .item-inner input{
+    padding-right: 0.7rem;
+}
+.content-receptionCarInfo .list-block .item-select-edit .item-inner{
+    padding-right: 0 !important;
+}
+.content-receptionCarInfo .list-block .item-select-edit .item-input input{
+    padding-right: 0;
+}
+.content-receptionCarInfo .list-block .item-select-edit .item-inner .arrowLink{
+    padding-right: 0.5rem !important;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-top: 0.1rem;
+    padding-left: 0.2rem;
+    margin-left: 0.1rem;
+    color: #C8C8CD;
+}
+
+.content-receptionCarInfo .list-block .item-select-edit:active{
+    background: none !important;
+}
+.content-receptionCarInfo .list-block textarea{
+    height: 3rem;
+}
+.content-receptionCarInfo .list-block .description{
+    text-align: right;
+    padding-left: 1rem;
+}
+.content-receptionCarInfo .list-block .description::-o-input-placeholder{
+    line-height: 2.2rem;
+    text-align: right;
+}
+.content-receptionCarInfo .list-block .description::-webkit-input-placeholder{
+    line-height: 2.2rem;
+    text-align: right;
+}
+/* 维修开单-接车信息页面样式结束 */
+/* 汽车品牌选项样式开始 */
+/* .content-brand-position{
+    position: relative;
+} */
+ul li{list-style: none;}
+.content-brand .list-block{margin-top: 0;}
+.content-brand .list-block .indent-two .item-inner{
+    text-indent: 1.2rem;
+}
+.content-brand .list-block .item-content{
+    padding-left: 0.5rem;
+    position: relative;
+}
+.content-brand .list-group-title{
+    color: #000;
+    z-index: 0;
+}
+.content-brand .item-media{
+    width: 1.5rem;
+}
+.content-brand .item-media img{
+    width: 1.5rem;
+}
+.content-brand .list-block .item-media + .item-inner{
+    margin-left: 0.3rem;
+}
+.wordList{
+   position: absolute;
+   right:0rem;
+   top: 2.5rem;
+   z-index: 9999;
+   padding-left: 0rem;
+} 
+.wordList li{
+    line-height: 0.79rem;
+}
+.wordList li a{
+    font-size: 0.65rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.list-block .item-link .item-inner{
+    background-position: calc(100% - 1.2rem) center;
+}
+/* 汽车品牌1样式结束 */
+/* 汽车车系样式开始 */
+.page-series .item-title{
+    padding-left: 1rem;
+}
+/* 汽车车系样式结束 */
+/* 车型样式开始 */
+.content-hidden{
+    display: none;
+}
+.content-style .list-block ul li:active{
+  -webkit-transition-duration: 0ms;
+   transition-duration: 0ms;
+  background-color: #d9d9d9;
+}
+/* 车型样式结束 */
+/* 送修人样式开始 */
+.content-person .list-block .item-content{
+    padding-left: 0.75rem;
+}
+.content-person .list-block ul li:active{
+  -webkit-transition-duration: 0ms;
+   transition-duration: 0ms;
+  background-color: #d9d9d9;
+}
+/* 送修人样式结束 */
+/* 维修开单-维修项目页面样式开始 */
+.bar-nav a.pull-add{
+    color: #fff;
+    line-height: 2.2rem;
+    position: absolute;
+    right: 2rem;
+    z-index: 99;
+}
+.content-receptionCarInfo .content-block-tab2{
+    padding: 0 !important;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .item-inner .del{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.4rem;
+    font-size: 1rem;
+    font-family: 'iconfont';
+    color: #FA5A4C;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block ul{
+    background: none;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block ul li{
+    background: #fff;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #ECECEC;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .item-title-row{
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 0.5rem;
+    padding-top: 0.1rem;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .item-title-row .item-title,
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .item-title-row .item-after{
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-right: 1.33rem;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .row{
+    font-size: 0.6rem;
+    margin-left: 0;
+    border-bottom: 1px solid #ECECEC;
+    position: relative;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content{
+    padding-left: 0.5rem;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .item-inner {
+    padding-right: 0.5rem;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .item-inner .row .edit{
+    right: 0;
+    color: #025FEC;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .row .col-33{
+    margin-left: 0;
+    width: 33.333%;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .row .col-33 label{
+    float: left;
+    line-height: 1.2rem;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .row .col-33 input{
+    float: left !important;
+    display: inline-block;
+    width: 34%;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding-left: 0;
+}
+.content-receptionCarInfo .content-block-tab2 .list-block .item-content .item-subtitle{
+    text-align: right;
+    margin-top: 0.5rem;
+}
+.addItemDiv{
+   
+}
+.addItemDiv .row{
+    margin-left: 0;
+    margin: 0 5%;
+}
+.addItemDiv .row .col-50{
+    text-align: center;
+    margin-left: 0;
+    width: 50%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.addItemDiv .row .col-50 i{
+    font-size: 2.2rem;
+    color: #025FEC;
+}
+.addItemDiv .row .col-50 span{
+    color: #666666;
+    background: #ECECEC;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+}
+/* .content-receptionCarInfo .content-block-tab2 .addItem i{
+    font-size: 1.2rem;
+}
+.content-receptionCarInfo .content-block-tab2 .addItem span{
+    color: #666666;
+    background: #ECECEC;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+} */
+.bar-tab-item{
+    background: #025FEC;
+    display: none; 
+}
+.bar-tab-item .row .col-30{
+    width: 30%;
+    margin: 0;
+    line-height: 2.7rem;
+    text-align: center;
+}
+.bar-tab-item .row .col-40{
+    border-left: 1px solid #fff;
+    width: 40%;
+    font-size: 0.7rem;
+    margin: 0;
+    margin: 0.3rem 0;
+    text-align: left;
+    padding-left: 8%;
+    color: #fff;
+}
+.bar-tab-item .row a.col-30{
+    background: #fa5a4c;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.bar-tab-item .row div.col-30 span{
+    font-size: 0.65rem;
+}
+.bar-tab-item .row div.col-30 strong{
+    font-size: 1rem;
+}
+.readonly{  
+    border:none !important;   
+    background-color:inherit !important; 
+}  
+/* 维修开单-维修项目页面样式结束 */
+/* 维修开单-维修项目输入页面开始*/
+.content-addItemPage .list-block{
+    margin-top: 0.5rem;
+}
+.content-addItemPage .list-block ul li input{
+    text-align: right;
+}
+.content-addItemPage .list-block ul li .item-unit .item-inner {
+    background-position: calc(100% - 0.5rem) center;
+}
+/* 维修开单-维修项目输入页面结束*/
+/* 维修开单-维修项目-项目选择样式开始 */
+.content-item-select .searchbar{
+    margin-left: 0;
+    margin-right: 0.75rem;
+}
+.content-item-select .list-block{
+    margin: 0;
+    margin-bottom: 3rem;
+}
+.content-item-select label.label-checkbox i.icon-form-checkbox{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+}
+.bar-maintain-item-select{
+    z-index: 9999;
+}
+.bar-maintain-item-select .row .col-66,.bar-maintain-item-select .row .col-33{
+    height: 2.7rem;
+    line-height: 2.7rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.bar-maintain-item-select .row .col-66{
+    padding-left: 0.75rem;   
+}
+.bar-maintain-item-select .row .col-33{
+    background:#025FEC; 
+    color: #fff;
+    text-align: center;
+}
+/* 维修开单-维修项目-项目选择样式结束 */
+/* 维修开单-配件材料页面样式开始 */
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .row{
+    padding-left: 1.2rem;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .row .col-50 {
+    margin-left: 0;
+    width: 50%;
+    margin-top: 0.1rem;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .row .col-50.col-right{
+    padding-left: 1.8rem;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .row .col-50 label {
+    float: left;
+    line-height: 1.2rem;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .row .col-50 input {
+    float: left !important;
+    display: inline-block;
+    width: 40%;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding-left: 0;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .row .col-last label{
+    line-height: 1.2rem;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .item-title-row .item-title{
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .item-title-row .item-title i{
+    color: #F4BD00;
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-height: 1.2rem;
+}
+.content-receptionCarInfo .content-block-tab3 .list-block .item-content .item-title-row .item-after{
+    font-size: 0.75rem;
+}
+.p_number{
+    overflow: hidden;
+}
+.p_number span{
+    float:left;
+    margin:0;
+    display:block;
+    font-family: 'iconfont';
+    font-size: 0.85rem;
+    overflow:hidden;
+    line-height: 1rem;
+}
+.p_number span.disabled{
+    color: #999;
+}
+.p_number input.text{
+    float:left;
+    margin:0 3px;
+    margin-top: 0.1rem;
+    margin-right: 2px;
+    display:inline;
+    border:solid 1px #ccc;
+    border-radius: 3px;
+    padding:0;
+    text-align: center;
+    width:1.6rem;
+    height: 1rem;
+    line-height:1rem;
+    color:#333333;
+    font-size: 0.65rem;
+}
+.p_number span.stock{
+    font-size: 0.65rem;
+    margin-top: 0.1rem;
+}
+.p_number span.add{
+    float: none;
+    color:#025FEC;
+}
+/* 维修开单-配件材料页面样式结束 */
+/* 维修开单-配件材料-单位选择开始 */
+.content-materialUnit .list-block{
+    margin-top: 0.75rem;
+}
+.content-materialUnit .list-block ul {
+    overflow: hidden;
+    background: none;
+}
+.content-materialUnit .list-block ul li{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.content-materialUnit .list-block ul li span{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ECECEC;
+    width: 60%;
+    display: inline-block;
+    padding:0.5rem 0; 
+}
+.content-materialUnit .list-block ul li span:active{
+  -webkit-transition-duration: 0ms;
+   transition-duration: 0ms;
+  background-color: #ECECEC;
+}
+/* 维修开单-配件材料-单位选择结束 */
+/* 维修开单-配件材料-材料选择样式开始*/
+.content-material-select .stockNum{
+    font-size: 0.6rem;
+    color: #999;
+    width: 5.2rem;
+}
+.content-material-select .list-block .item-inner{
+    padding-right: 0.5rem;
+}
+.content-material-select .list-block .item-subtitle{
+    white-space: normal;
+}
+.warehouse{
+    display: inline-block;
+    width: auto;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    padding-left: 0.1rem;
+    padding-right: 0.7rem;
+}
+.warehouse.edit{
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 0 0;
+    color: #333 !important;
+}
+.warehouse.edit:after{
+    content: '\e609';
+    font-family: 'iconfont';
+    position: absolute;
+    font-size: 0.4rem;
+    padding-left: 0.1rem;
+}
+.selectDL{
+    position:absolute;
+    z-index:99;
+    background:#ffffff;
+    left:3.76rem;
+    top:4.7rem;
+    display:none;
+    font-size: 0.6rem;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.selectDL dd{
+    margin-left:0;
+    padding:0.1rem 0.7rem 0.1rem 0.11rem;
+}
+.selectDL dd:hover{
+    background: #f2f2f2;
+}
+
+/* 维修开单-配件材料-材料选择样式结束*/
+/* 快修美容开单-美容项目样式开始 */
+.list-block-quickItem{
+    background: #ffffff;
+    padding: 0 0.5rem;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 0.5rem;
+}
+.list-block-quickItem ul li{
+    border: none !important;
+}
+.list-block-quickItem h3{
+    padding-top: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+}
+.list-block-quickItem ul{
+    overflow: hidden;
+}
+.list-block-quickItem ul li {
+    width: 50%;
+    float: left;
+    height: 2rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.list-block-quickItem ul li:nth-child(odd) {
+    padding-right: 0.5rem;
+}
+.list-block-quickItem ul li:nth-child(even) {
+    padding-left: 0.5rem;
+}
+.list-block-quickItem ul li span {
+    display: block;
+    width: 100%;
+    background: #007aff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    position: relative;
+    white-space: nowrap;
+}
+.list-block-quickItem ul li span.current {
+    background: #025FEC;
+    border-bottom: 1px solid #025FEC;
+}
+.list-block-quickItem ul li span.current:after {
+     content: "\e757";
+    position: absolute;
+    font-family: 'iconfont';
+    font-size: 0.9rem;
+    right: 0;
+    bottom: -13px;
+    margin-top: -1rem;
+    color: #EEEEEE;
+}
+.quickItem-button{
+    margin: 0 0.5rem;
+}
+.list-block-quickItem .list-block .item-select-edit .item-inner{
+    padding-right: 0 !important;
+}
+.list-block-quickItem .list-block .item-select-edit .item-input input{
+    padding-right: 0;
+}
+.list-block-quickItem .list-block .item-select-edit .item-inner .arrowLink{
+    padding-right: 0.5rem !important;
+    padding: 0.3rem 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.list-block-quickItem ul{
+   border: none;
+}
+.content-block-vip{
+    margin-bottom: -1rem;
+}
+.content-block-vip .list-block-quickItem{
+    margin-bottom: 0.5rem;
+}
+/* 快修美容配件材料样式开始 */
+/* .content-quick-material .content-block .list-block .item-title-row .item-title i{
+    color: #F4BD00;
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-height: 1.2rem;
+} */
+/* 快修配件材料样式结束 */
+/* 维修项目选择样式开始 */
+.content-maintainItem .list-block{
+    margin-top: 0;
+}
+.content-maintainItem .list-block ul{
+    background: none;
+}
+.content-maintainItem .list-block ul li{
+    line-height: 2.2rem;
+    background: #fff;
+    text-align: center;
+    margin: 0.4rem 0;
+    border-radius: 6px;
+    border: 1px solid #ECECEC;
+    font-size: 0.85rem;
+}
+.content-maintainItem .list-block ul li:active{
+  -webkit-transition-duration: 0ms;
+   transition-duration: 0ms;
+  background-color: #ECECEC;
+}
+/* 维修项目选择样式结束 */
+/* 会员查询样式开始 */
+.content-vipCheck .list-block{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.content-vipCheck .list-block ul{
+    background: none;
+}
+.content-vipCheck .list-block ul li{
+    background: #ffffff;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 0;
+}
+.content-vipCheck .list-block ul li:first-child{
+    border-top: none;
+}
+.content-vipCheck .list-block.media-list .item-media img {
+    width: 2.2rem;
+}
+.content-vipCheck .list-block .item-content{
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+}
+.content-vipCheck .list-block ul li .item-media{
+    padding: 0;
+}
+.content-vipCheck .list-block ul li .item-media i{
+    font-size: 2rem;
+    color: #025FEC;
+}
+.content-vipCheck .list-block.media-list .item-inner{
+    padding: 0;
+    padding-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+.content-vipCheck .list-block.media-list .item-title{
+    color: #333;
+}
+.content-vipCheck .list-block .item-text .row{
+    height: 2.1rem;
+    margin-left: 0;
+}
+.content-vipCheck .list-block .item-text .row .col-70{
+    width: 69.99999999999999%;
+    line-height: 2.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content-vipCheck .list-block .item-text .row .col-30{
+    width: 30%;
+    line-height: 2.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+.content-vipCheck .list-block ul li:active{
+  -webkit-transition-duration: 0ms;
+   transition-duration: 0ms;
+  background-color: #ECECEC;
+}
+/* 会员查询样式结束 */
+/* 会员卡选择样式开始 */
+/* .content-vipSelect .list-block .item-text .row .col-50:last-child{
+    padding-right: 0;
+} */
+/* 会员卡选择样式结束 */
+/* 工单查询样式开始 */
+.content-BillCheck .content-padded{
+    margin: 0 0.5rem;
+}
+.content-BillCheck .list-block{
+    margin: 0;
+    padding: 0;
+}
+.content-BillCheck .list-block.media-list ul{
+    background: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+.content-BillCheck .list-block.media-list ul li{
+    background:#FFFFFF;
+    padding:0.3rem 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.content-BillCheck .list-block ul li:active{
+  -webkit-transition-duration: 0ms;
+   transition-duration: 0ms;
+  background-color: #ECECEC;
+}
+
+.content-BillCheck .list-block.media-list ul li:first-child a.item-content{
+    padding-left: 0;
+}
+.content-BillCheck .list-block .item-content{
+    padding-left: 0.2rem;
+}
+.content-BillCheck .list-block.media-list .item-media img{
+    width: 2.2rem;
+}
+.content-BillCheck .list-block .item-media + .item-inner{
+    margin-left: 0.3rem;
+    padding: 0;
+    padding-top: 0.3rem;
+}
+.content-BillCheck .list-block.media-list .item-title-row .item-after{
+    font-size: 0.65rem;
+}
+.content-BillCheck .list-block.media-list .item-title .orange{
+    color: #ff8700;
+}
+.content-BillCheck .list-block .item-text{
+    margin-top: 0.2rem;
+}
+.content-BillCheck .list-block .item-text .row .rowCenter{
+    text-align: center;
+}
+.content-BillCheck .list-block .item-text .row .light-red{
+    text-align: right;
+}
+.content-BillCheck .list-block .item-text .row .col-33{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 2.1rem;
+}
+/* 工单查询样式结束 */
+/* 工单查询详情样式开始 */
+.content-BillCheck-info .media-list ul li{
+    border-top: none;
+}
+.content-BillCheck-info  .list-block{
+    margin-bottom: 0.5rem;
+}
+.content-BillCheck-info  .list-block-pickUp ul{
+    border-top: 2px solid #ff8700;
+}
+.content-BillCheck-info  .list-block-pickUp ul li{
+    padding: 0 0.5rem;
+}
+.content-BillCheck-info  .list-block-item ul li .item-content .item-inner .item-title{
+    width: 75%;
+}
+.content-BillCheck-info  .list-block-pickUp ul li .item-media i{
+    color: #2165D2;
+    font-size: 0.9rem;
+}
+.content-BillCheck-info .list-block-pickUp .item-media + .item-inner{
+    padding-top: 0;
+}
+.content-BillCheck-info .list-block-item{
+    margin-top: 0.5rem;
+}
+.content-BillCheck-info .list-block-item ul{
+    border-top: 2px solid #025FEC;
+}
+.content-BillCheck-info .list-block-item ul li:first-child{
+    background: #f7f7f7;
+    /* font-weight: bold; */
+}
+.content-BillCheck-info .list-block-item .item-inner{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-right: 0.2rem;
+}
+.content-BillCheck-info .list-block-pickUp ul li .item-media i.grey{
+    color: #999;
+    font-size: 0.7rem;
+}
+.content-BillCheck-info .list-block-pickUp ul li .item-media i.icon.up{
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+.content-BillCheck-info .list-block-pickUp ul li .row-itemInfo{
+    font-size: 0.6rem;
+    display: none;
+    color: #999;
+    margin-left: 0;
+    border-top: 1px dashed #ECECEC;
+}
+.content-BillCheck-info .list-block-pickUp ul li .row-itemInfo.current{
+    display: block;
+}
+.content-BillCheck-info .list-block-pickUp ul li .row-itemInfo .col-33{
+    margin-left: 0;
+    width: 33.333333333333%;
+    line-height: 1.8rem;
+    text-align: center;
+}
+/* .content-BillCheck-info  .list-block-item ul li .item-content .item-inner .item-title{
+    width: 75%;
+} */
+.list-block-material .item-inner-row .col-55{
+    width: 55% !important;
+}
+.list-block-material .item-inner-row .col-25{
+    width: 25%;
+}
+
+.list-block-material .item-inner-row .col-20{
+    width: 20%;
+}
+.list-block-material .item-inner-row .col-33{
+    width: 33.333333333333%;
+}
+.list-block-material .item-inner-row .col-two{
+    text-align: center;
+}
+.list-block-material .item-inner-row .col-three{
+    text-align: right;
+    display: block;
+}
+.list-block-account .item-title.label{
+    width: auto;
+}
+.content-BillCheck-info .content-block-button{
+    padding: 0 0.5rem;
+}
+/* 工单查询详情样式结束 */
+/* 登陆页样式开始 */
+.content-login{
+    background: url(../images/lgbg.jpg);
+    background-size: cover;
+}
+.content-login .login-form{
+    transform: translate(0,90%);
+    -webkit-transform: translate(0,90%);
+}
+.content-login .login-form ul{
+    background: none;
+}
+.content-login .login-form ul li{
+    margin: 0 2rem;
+    border: 1px solid #ffffff;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+.content-login .login-form ul li .item-media i{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.content-login .login-form ul li input{
+    color: #fff;
+}
+.content-login .login-form ul li.loginLi{
+    border: none;
+}
+.content-login .login-form ul li .button-login{
+    border-radius: 0.2rem;
+    background: #007aff;
+    text-align: center;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+.content-login .login-form ul li .button-login:active{
+    background: #025FEC;
+    border: 1px solid #025FEC;
+}
+.content-login .login-form ul li:last-child{
+    border: none;
+    margin-top: 1rem;
+}
+.content-login .login-form ul li .forgetA{
+    display: block;
+    text-align: right;
+    margin-right: 0.75rem;
+    color: #fff;
+} 
+
+/* 登陆样式结束 */
+/* 维修预约样式开始 */
+.content-reservaticon .list-block{
+    margin-top: 0.5rem;
+}
+.content-reservaticon .item-content{
+    padding-left: 0.5rem;
+}
+.content-reservaticon .item-media + .item-inner{
+    margin-left: 0.3rem;
+}
+.content-reservaticon .item-title.label{
+    color: #333;
+}
+.content-reservaticon ul li .item-input input{
+    text-align: right;
+}
+.content-reservaticon ul li .item-input input.carNumInput{
+    text-align: left;
+    width: 3.5rem;
+    float: right;
+}
+.content-reservaticon ul li i.icon{
+    font-size: 0.9rem;
+    color:#2165D2;
+}
+.content-reservaticon .list-block .item-link .item-inner{
+    background-position: calc(100% - 0.5rem) center;
+    padding-right: 1.2rem;
+}
+
+.content-reservaticon ul li .item-arrows i{
+    color: #999;
+}
+.content-reservaticon ul.first-ul{
+    margin-bottom: 0.5rem;
+}
+.content-reservaticon ul.first-ul .item-media img{
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    vertical-align: sub;
+}
+.content-reservaticon ul.second-ul li{
+}
+.content-reservaticon ul.second-ul li:last-child{
+    border-bottom: none;
+}
+.content-reservaticon .content-block-button{
+    padding: 0;
+}
+.content-reservaticon .list-block .item-select-edit .item-inner{
+    padding-right: 0 !important;
+}
+.content-reservaticon .list-block .item-select-edit .item-input input{
+    padding-right: 0;
+}
+.content-reservaticon .list-block .item-select-edit .item-inner .arrowLink{
+    padding-right: 0.5rem !important;
+    padding: 0.3rem 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-left:1rem;
+    margin-left: 0.1rem;
+}
+.content-reservaticon .list-block .item-select-edit:active{
+    background: none !important;
+}
+/* 维修预约样式结束 */
+/* 车辆选择样式开始 */
+.content-selectCar .list-block{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.content-selectCar .list-block ul{
+    margin:0 0.5rem;
+    background: none;
+}
+.content-selectCar .list-block ul li{
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
+    margin-bottom: 0.5rem;
+}
+.content-selectCar .list-block .item-link .item-inner{
+    background-position: calc(100% - 0.5rem) center;
+}
+.content-selectCar .list-block ul.selectCar li .item-content{
+    padding-left: 0.5rem;
+}
+.content-selectCar .list-block ul.selectCar li .item-media{
+    border-right: 1px dashed #ECECEC;
+    padding: 0.3rem 0;
+    padding-right: 0.5rem;
+}
+.content-selectCar .list-block ul.selectCar li .item-media dl{
+    margin: 0;
+}
+.content-selectCar .list-block ul.selectCar li .item-media dl dd{
+    margin-left: 0;
+}
+.content-selectCar .list-block ul.selectCar li .item-media dl dd img{
+    height: 2rem;
+    padding-left: 0.55rem;
+}
+.content-selectCar .list-block ul.selectCar li .item-media dl dd p{
+    margin: 0.5rem 0;
+}
+.content-selectCar .list-block ul.selectCar li .item-inner .item-title-row{
+    height: 2rem;
+    line-height: 2rem;
+}
+.content-selectCar .list-block ul.selectCar li .item-inner .item-subtitle{
+    margin-top: 0.3rem;
+}
+.content-selectCar .list-block ul.addCar li .item-content{
+    padding-left: 0.5rem;
+}
+.content-selectCar .list-block ul.addCar li .item-media i{
+    font-size:1rem;
+    color: #2165D2;
+}
+.content-selectCar .list-block  ul.addCar li .item-media + .item-inner{
+    margin-left: 0.5rem;
+}
+/* 车辆选择样式结束 */
+/* 添加爱车样式开始 */
+.content-addCar .list-block{
+    margin-top: 0.5rem;
+}
+.content-addCar .list-block ul{
+    margin: 0 0.5rem;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+.content-addCar .list-block ul li{
+    border-bottom: 1px solid #ECECEC;
+}
+.content-addCar .list-block ul li:last-child{
+    border-bottom: none;
+}
+.content-addCar .list-block ul li .item-content{
+    padding-left: 0.5rem;
+}
+.content-addCar .list-block ul li .item-content .item-inner{
+    margin-left: 0.3rem;
+}
+.content-addCar .list-block ul li .item-content .item-media i{
+    color: #2165D2;
+    font-size: 0.9rem;
+}
+.content-addCar .list-block ul li .item-content .item-inner .item-title.label{
+    width: auto;
+}
+.content-addCar .list-block ul li .item-content .item-inner .item-input input{
+    text-align: right;
+}
+.content-addCar .list-block ul li .item-content .item-inner .item-afterInput{
+    padding-right: 1.3rem;
+}
+.content-addCar .list-block ul li .item-content .item-inner .item-afterInput::after {
+    content: "公里";
+    position: absolute;
+    right: 0.6rem;
+    font-size: 0.75rem;
+    top: 50%;
+    margin-top: -0.55rem;
+}
+.content-addCar .list-block .item-link .item-inner{
+    background-position: calc(100% - 0.5rem) center;
+    padding-right: 1.2rem;
+}
+.content-addCar .list-block .item-inner .moreButton {
+    display: inline-block;
+    height: 1.6rem;
+    margin-left: 60%;
+    background: #025FEC;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    font-size: 0.7rem;
+}
+.content-addCarInfo .list-block ul li .item-content .item-inner .item-title.label{
+    color: #333;
+}
+/* 添加爱车样式结束 */
+/* 更多爱车信息样式开始 */
+.content-moreCarInfo .list-block{
+    margin-top: 0.5rem;
+}
+.content-moreCarInfo .list-block ul{
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
+}
+.content-moreCarInfo .list-block ul li{
+    border-bottom: 1px solid #ECECEC;
+}
+.content-moreCarInfo .list-block ul li:last-child{
+    border-bottom: none;
+}
+.content-moreCarInfo .list-block ul li .item-inner .item-title{
+    width: auto !important;
+}
+.content-moreCarInfo .list-block ul li .item-inner .item-input input{
+    text-align: right;
+}
+/* 更多爱车信息样式结束 */
+/* 维修预约结果样式开始 */
+.content-reservation-result .resultIcon{
+    text-align: center;
+    color: #4CD964;
+    font-size: 2rem;
+}
+/* .content-reservation-result .result-twoP{
+    text-indent: 1.8rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+} */
+.content-reservation-result .list-block{
+    margin-top: 0.6rem;
+}
+.content-reservation-result ul{
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+}
+.content-reservation-result ul li{
+    border-bottom: 1px solid #ECECEC;
+}
+.content-reservation-result ul li:last-child{
+    border-bottom: none;
+}
+.content-reservation-result .list-block ul li.item-content{
+    padding-left: 0.5rem;
+}
+.content-reservation-result .list-block .item-media + .item-inner{
+    margin-left: 0.3rem;
+}
+.content-reservation-result .list-block .item-media + .item-inner .item-title{
+    /* width: 35%; */
+}
+.content-reservation-result .list-block .item-media + .item-inner .item-after{
+    width: 70%;
+    text-align: right !important;
+    display: block;
+}
+.content-reservation-result ul li .item-media i{
+    color: #2165d2;
+    font-size: 0.9rem;
+}
+.content-reservation-result .content-button{
+    padding: 0;
+}
+/* 维修预约结果样式结束 */
+/* 维修预约记录样式开始 */
+.bar-nav ~ .content.content-reservationRecond{
+    top: 3.5rem;
+    margin-top: 1.5rem;
+}
+.content-reservationRecond .buttons-tab{
+    background: #f2f2f2;
+}
+.content-reservationRecond .content-block{
+    margin: 0;
+    padding: 0;
+}
+.content-reservationRecond .content-block .list-block{
+    margin: 0;
+}
+.content-reservationRecond .content-block ul{
+    background: none;
+}
+.content-reservationRecond .content-block ul li:first-child{
+    border-top: none;
+}
+.content-reservationRecond .content-block ul li{
+    background: #fff;
+    margin-bottom: 0.5rem;
+}
+.content-reservationRecond .content-block ul li a.recordLink{
+    display: block;
+}
+.content-reservationRecond .content-block ul li a.recordLink:active{
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+    background-color: #ECECEC;
+}
+.content-reservationRecond .content-block ul li .item-content{
+    padding:0.5rem;
+}
+.content-reservationRecond .content-block ul li .item-content .item-text{
+    padding-top: 0.3rem;
+}
+.content-reservationRecond .content-block ul li .item-content .item-media img {
+    width: 2.2rem;
+}
+.content-reservationRecond .content-block ul li .item-content .item-media + .item-inner {
+    margin-left: 0.3rem;
+    padding: 0;
+    padding-top: 0.3rem;
+}
+.content-reservationRecond .content-block ul li .item-content .item-text .row .col-33 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 2.1rem;
+}
+.content-reservationRecond .content-block ul li .item-content .item-text .row .col-33:last-child{
+    text-align: right;
+}
+.content-reservationRecond .content-block ul li .item-content .item-text .row .col-33.rowCenter{
+    text-align: center;
+}
+/* 维修预约记录样式结束 */
+/* 库存查询样式开始 */
+.content-stockCheck .list-block{
+    margin-top: 0;
+}
+.content-stockCheck .list-block .list-group ul li.list-group-title{
+    color: #333;
+    border-bottom: none;
+    border-top: none;
+    z-index: 0;
+}
+.content-stockCheck .list-block .list-group ul li{
+	margin-bottom:0.6rem;
+}
+.content-stockCheck .list-block .list-group ul li dl{
+    margin: 0;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem ;
+}
+.content-stockCheck .list-block .list-group ul li dl dd{
+    margin-left: 0;
+    padding-left: 0.75rem;
+    padding-right: 1rem;
+}
+.content-stockCheck .list-block .list-group ul li dl dd .item-inner{
+    padding: 0;
+    min-height: 1.5rem !important;
+}
+.content-stockCheck .list-block .list-group ul li dl dd.second-dd{
+    text-indent: 1rem;
+}
+.content-stockCheck .list-block .list-group ul li dl dd.one-dd .item-inner .item-after{
+    width: 60%;
+    display: block;
+    text-align: right;
+}
+/* 库存查询样式结束 */
+/* 客户查询样式开始 */
+.content-CusumerCheck .list-block .item-content{
+    padding-left: 0;
+}
+.content-CusumerCheck .list-block .item-media + .item-inner{
+    margin-top: 0.2rem;
+}
+.content-BillCheck .list-block.media-list .item-title-brand .row{
+    width: 100%;
+    margin-left: 0;
+    color: #333;
+}
+.content-BillCheck .list-block.media-list .item-title-brand .row .col-30{  
+    width: 30%;
+}
+.content-BillCheck .list-block.media-list .item-title-brand .row .col-70{
+    width: 70%;
+    padding-left: 0.5rem;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content-CusumerCheck .list-block .item-text{
+    padding-top: 0.3rem;
+}
+.content-CusumerCheck .list-block .item-text .date{
+    font-size: 0.65rem;
+    padding-top: 0.1rem;
+}
+/* 客户查询样式结束 */
+/* 客户档案详情样式开始 */
+.content-consumerInfo .list-block{
+    margin-top: 0rem;
+}
+.content-consumerInfo .list-block ul{
+     margin-bottom: 0.5rem;
+}
+.content-consumerInfo .list-block ul li .item-content{
+    padding-left: 0.5rem;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner{
+    margin-left: 0.3rem;
+}
+.content-consumerInfo .list-block .item-link .item-inner {
+    background-position: calc(100% - 0.5rem) center;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner .item-title{
+    color: #333;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner input{
+    text-align: right;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner input.carNumInput{
+    text-align: left;
+    width: 3.5rem;
+    float: right;
+}
+.content-consumerInfo .list-block ul li .item-content .item-media i{
+    color: #2165D2;
+    font-size: 0.9rem;
+}
+.content-consumerInfo .list-block ul.scroll-ul li:first-child{
+    background: #FFFFFF;
+}
+.content-consumerInfo .list-block ul.scroll-ul li:first-child .item-content .item-title{
+    font-weight: bold;
+    color: #2165D2;
+}
+.content-consumerInfo .list-block ul li .item-content .item-icon{
+    padding-right: 0.75rem;
+    padding-top: 0 ;
+    padding-bottom: 0;
+}
+.content-consumerInfo .list-block ul li .item-content .item-icon i{
+    color: #ccc;
+    font-size: 0.8rem;   
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background: none;
+}
+.content-consumerInfo .list-block ul li .item-content .item-icon i:after{
+    content: "\e61a";
+    position: absolute;
+    font-family: 'iconfont';
+    right: 0;
+}
+.content-consumerInfo .list-block ul li .item-content .item-icon i.current:after{
+    content: "\e6ac";
+}
+.content-consumerInfo .list-block ul.scroll-ul li{
+    display: none;
+}
+.content-consumerInfo .list-block ul.scroll-ul li:first-child{
+    display: block;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner .item-afterInput-km {
+    padding-right: 1.6rem;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner .item-afterInput-km:after {
+    content: '公里';
+    position: absolute;
+    right: 0.6rem;
+    font-size: 0.75rem;
+    top: 50%;
+    margin-top: -0.55rem;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner .item-afterInput-month{
+    padding-right: 0.8rem;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner .item-afterInput-month:after{
+    content: '月';
+    position: absolute;
+    right: 0.6rem;
+    font-size: 0.75rem;
+    top: 50%;
+    margin-top: -0.55rem;
+}
+.content-consumerInfo .list-block .item-select-edit .item-inner .arrowLink {
+    padding-right: 0.5rem !important;
+    padding: 0.3rem 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-left: 1rem;
+    margin-left: 0.1rem;
+}
+.content-consumerInfo .list-block ul li .item-content .item-inner {
+    padding-right: 0.5rem;
+}
+.content-consumerInfo .list-block .item-link .item-inner input {
+    padding-right: 0.7rem;
+}
+.content-consumerInfo .list-block .item-select-edit .item-inner {
+    padding-right: 0 !important;
+}
+.content-consumerInfo .list-block .item-select-edit .item-input input {
+    padding-right: 0;
+}
+.content-consumerInfo .list-block .item-title.label {
+    color: #333;
+    width: auto;
+}
+.content-consumerInfo .list-block ul li .item-person {
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    padding-left: 0.75rem;
+    min-height: 2.2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.content-consumerInfo .list-block ul li .item-person .item-inner input {
+    text-align: right;
+}
+.content-consumerInfo .list-block ul li .item-person .item-inner {
+    padding-right: 0.5rem;
+    margin-left: 0.3rem;
+    background-position: calc(100% - 0.5rem) center;
+}
+/* 客户档案详情样式结束 */
+/* 保险公司样式开始 */
+.content-insurance .list-block {
+    margin-top: 0;
+}
+.content-insurance .list-block li {
+    border-bottom: 1px solid #ECECEC;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    padding-left: 0.75rem;
+}
+
+/* 保险公司样式结束 */
+/* 洗车开单样式开始 */
+.content-washCar .list-block{
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+}
+.content-washCar .list-block-input ul li:last-child{
+    border-bottom: none;
+}
+.content-washCar .list-block-input ul li .item-content{
+    padding-left: 0.5rem;
+}
+.content-washCar .list-block-input ul li .item-content .item-inner{
+    margin-left: 0.3rem;
+}
+.content-washCar .list-block-input ul li .item-media i{
+    color: #2165D2;
+    font-size: 0.9rem;
+}
+.content-washCar .list-total ul li .item-content .item-input:after{
+    content: '元';
+    right: 0;
+    position: absolute;
+    top: 0;
+    line-height: 2.25rem;
+    right: 0.5rem;
+}
+.content-washCar .list-total ul li .item-content .item-input input{
+    padding-right: 0.5rem;
+}
+.content-washCar .list-block-input ul li .item-content .item-input input{
+    text-align: right;   
+}
+.content-washCar .list-block-input ul li .item-content .item-input input.carNumInput{
+    text-align: left;
+    width: 3.5rem;
+    float: right;
+}
+.content-washCar .list-block .item-link .item-inner {
+    background-position: calc(100% - 0.5rem) center;
+    padding-right: 1.2rem;
+}
+.content-washCar .list-vip{
+    background: #fff;
+    padding: 0 0.5rem;
+    padding-bottom: 0.2rem;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+.content-washCar .list-vip h3{
+    padding-top: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+}
+.content-washCar .list-vip ul{
+    overflow: hidden;
+}
+.content-washCar .list-vip ul li{
+    width: 50%;
+    float: left;   
+    height: 2rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.content-washCar .list-vip ul li:nth-child(odd){
+    padding-right: 0.5rem;
+}
+.content-washCar .list-vip ul li:nth-child(even){
+    padding-left: 0.5rem;
+}
+.content-washCar .list-vip ul li span{
+    display: block;
+    width: 100%;
+    background: #007aff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    position: relative;
+    white-space: nowrap;
+}
+.content-washCar .list-vip ul li span.current{
+    background: #025FEC;
+    border-bottom: 1px solid #025FEC;
+}
+.content-washCar .list-vip ul li span.current:after{
+    content: "\e757";
+    position: absolute;
+    font-family: 'iconfont';
+    font-size: 0.9rem;
+    right: 0;
+    bottom: -13px;
+    margin-top: -1rem;
+    color: #EEEEEE;
+}
+.content-washCar .list-block-input .item-select-edit .item-inner{
+    padding-right: 0 !important;
+}
+.content-washCar .list-block-input .item-select-edit .item-input input{
+    padding-right: 0;
+}
+.content-washCar .list-block-input .item-select-edit .item-inner .arrowLink{
+    padding-right: 0.5rem !important;
+    padding: 0.3rem 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-left: 0.2rem;
+    margin-left: 0.1rem;
+}
+.content-washCar .list-block-input .item-select-edit:active{
+    background: none !important;
+}
+/* 洗车开单样式结束 */
+/* 待回访任务样式开始 */
+.buttons-tab-color{
+    background: #FFFFFF;
+}
+.bar-nav ~ .content.content-returnVisit{
+    top: 3rem;
+}
+.content-returnVisit .content-block .list-block{
+    margin: 0;
+}
+.content-returnVisit .content-block .list-block .dl-list{
+    margin-top: 0.2rem;
+    padding-bottom: 0.4rem;
+}
+.content-returnVisit .content-block .list-block dl dd{
+    margin-left: 0;
+    min-height: 1.5rem;
+}
+
+.content-returnVisit .content-block .list-block ul li .item-title{
+    color: #333;
+}
+.content-returnVisit .content-block .list-block ul li .item-inner{
+    min-height: 1.5rem;
+}
+/* 待回访任务样式结束 */
+/* 待回访任务详情样式开始 */
+.content.content-returnVisitInfo{
+    margin-top: 0;
+    top: 3rem;
+}
+
+.content-returnVisitInfo .content-block .list-block textarea{
+    height: 3.5rem;
+    text-align: right;
+}
+.content-returnVisitInfo .content-block .list-block-info{
+    margin-top: 0.5rem;
+}
+.content-returnVisitInfo .content-block .list-block-info ul li .item-failure .item-inner input{
+    text-align: right;
+}
+.content-returnVisitInfo .content-block .list-block-info ul li .item-failure .item-inner {
+    background-position: calc(100% - 0.5rem) center;
+}
+.content-returnVisitInfo .content-block .list-block-info ul .item-after i{
+    padding: 0 0.2rem;
+    color: #ccc;
+    font-size: 1rem;
+}
+.content-returnVisitInfo .content-block .list-block-info ul .item-after i.good{
+    color: #FFEA00;
+}
+.starts ul{
+    border-top: none !important;
+    padding-left: 0 !important;
+}
+.starts ul li{
+    padding-right:3px;
+    float: left;
+    font-family: 'iconfont';
+    border-bottom: none !important;
+    font-size: 1rem;
+    color: #ccc;
+}
+.starts ul li.on{
+    color: #FFCE00;
+}
+.content-returnVisitInfo .content-button{
+    margin: 1.75rem 0;
+    padding: 0 0.5rem;
+}
+.chk_4 {
+    display: none;
+}
+.chk_4 + label {
+    background-color: #FFF;
+    padding: 11px 9px;
+    border-radius: 7px;
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    background: #F7836D;
+    width: 58px;
+    height: 32px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1), 0 0 10px rgba(245, 146, 146, 0.4);
+}
+.chk_4 + label:before {
+    content: ' ';
+    position: absolute;
+    background: #FFF;
+    top: 0px;
+    z-index: 99999;
+    left: -12px;
+    width: 24px;
+    color: #FFF;
+    height: 32px;
+    border-radius: 7px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.6);
+}
+.chk_4 + label:after {
+    content: '失败';  
+    position: absolute;
+    top: 7px;
+    left: 37px;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: bold;
+    left: 8px;
+    /* padding: 5px; */
+    top: 4px;
+    border-radius: 100px;
+}
+.chk_4:checked + label {
+    background: #67A5DF;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1), 0 0 10px rgba(146, 196, 245, 0.4);
+}
+.chk_4:checked + label:after {
+    content: '成功';
+    left: 10px;
+}
+.chk_4:checked + label:before {
+    content: ' ';
+    position: absolute;
+    z-index: 99999;
+    left: 48px;
+}
+.chk_4 + label:after {
+    left: 20px; 
+}   
+#checkbox_d2 + label:after, #checkbox_d2 + label:before, #checkbox label {  
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+/* 待回访任务详情样式结束 */
+/* 会员卡详情样式开始 */
+.bar-vip:after{
+    background: #2699EA;
+}
+.content-vipCardInfo .vipImg{
+    width: 100%;
+    min-height:7rem;
+}
+.content-vipCardInfo .content-text{
+    background: #3D5A84;
+    margin-top: -0.35rem;
+    position: relative;
+    height: 2.4rem;
+    width: 100%;
+    padding: 0 0.5rem;
+    z-index: 99;
+    line-height: 1.5rem;
+}
+.content-vipCardInfo .content-text a{
+    color: #fff;
+    width: 49%;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    display: inline-block;
+    text-align: center;
+    margin: 0.3rem 0;
+}
+.content-vipCardInfo .content-text a.content-text-one {
+    border-right: 1px dashed #ccc;
+}
+.content-vipCardInfo .content-text a p {
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    padding-left: 1.6rem;
+}
+.content-vipCardInfo .content-text p span{
+    color: #fff;
+    margin-left: 0.2rem;
+}
+.content-vipCardInfo .content-text a p:before {
+    position: absolute;
+    content: "\e65b";
+    left: 0;
+    padding-top: 0.1rem;
+    font-family: 'iconfont';
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+}
+.content-vipCardInfo .content-text a.content-text-one p:before {
+    content: "\e664";
+    font-size: 1.4rem;
+}
+.content-vipCardInfo .content-text a p span.boldSpan {
+    font-weight: bold;
+}
+.content-vipCardInfo .content-text a.content-text-one p span.boldSpan {
+    font-weight: bold;
+}
+.content-vipCardInfo .content-center-vipInfo{
+    margin: 0.5rem 0;
+}
+.content-vipCardInfo .content-center-vipInfo .list-block{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content-vipCardInfo .content-center-vipInfo .list-block ul li .item-content{
+    padding-left: 0.5rem;
+}
+.content-vipCardInfo .content-center-vipInfo .list-block ul li .item-content i{
+    color: #2165D2;
+    font-size: 0.9rem;
+}
+.content-vipCardInfo .content-center-vipInfo .list-block ul li .item-content .item-inner{
+    margin-left: 0.5rem;
+}
+.content-vipCardInfo .content-center-vipInfo .list-block ul li .item-content .item-inner textarea{
+    text-align: right;
+    height: 3.5rem;
+}
+.content-vipCardInfo .content-accessoriesDetail,.content-vipCardInfo .content-setDetail{
+    padding: 0 0.75rem;
+    padding-bottom: 0.5rem;
+    background: #fff;
+    margin: 0;
+}
+.content-vipCardInfo h3,.content-vipCardInfo h4{
+    margin: 0;
+    margin-top: 0.5rem;
+}
+.content-vipCardInfo h4{
+    margin-bottom: 0.5rem;
+}
+.content-vipCardInfo .content-accessoriesDetail{
+    margin-top: 0.5rem;
+}
+.progress-bar .pro-bar {
+    background: #cccccc;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.1) inset;
+    height:0.5rem;
+    margin-bottom: 12px;
+    margin-top: 2.2rem;
+    position: relative;
+}
+.progress-bar .pro-bro-two{
+    margin-top: 2.5rem;
+}
+.progress-bar .progress-bar-title{
+    color: #333333;
+    font-size: 0.75rem;
+    position: relative;
+    top: -1.6rem;
+    z-index: 1;
+}
+.progress-bar  .progress-title{
+    display: inline-block;
+    width: 46%;
+    float: none;
+}
+.progress-bar  .progress-time{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    float: none;
+}
+.progress-bar .progress-number{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-top: -1.6rem;
+}
+.progress-bar .progress-number strong{
+    color: red;
+    font-size: 0.85rem;
+    padding: 0 .2rem;
+ }
+.progress-bar .progress-bar-inner {
+    background-color: hsl(0, 0%, 88%);
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    padding-left: 0.2rem;
+    top: 0;
+    left: 0;
+    transition: width 1s linear 0s;
+    animation: animate-positive 2s;
+}
+.progress-bar .progress-bar-inner:before {
+    content: "";
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    right:0px;
+    top: 0;
+    z-index: 1;
+}
+.progress-bar .progress-bar-inner:after {
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    right: -0.35rem;
+    top: -0.35rem;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+@keyframes animate-positive{
+    0% { width: 0%; }
+}
+.content-vipCardInfo .content-car{
+    padding: 0 0.75rem;
+    padding-bottom: 0rem;
+    background: #fff;
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.content-vipCardInfo .content-car .carList ul{
+   padding-left: 0;
+   overflow: hidden;
+   margin: 0;
+}
+.content-vipCardInfo .content-car .carList ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.content-vipCardInfo .content-car .carList ul li a{
+    display: inline-block;
+    padding: 0 .5rem;
+    padding-right: 0rem;
+    height: 2rem;
+    background: #2165d2;
+    border: 3px solid #ffffff;
+    color: #fff;
+    border-radius: 6px;
+    line-height: 1.8rem;
+    margin-bottom: 0.8rem;
+    box-shadow: 2px 2px 5px #999999;
+}
+.content-vipCardInfo .content-car .carList ul li i{
+    margin-left: 0.3rem;
+    height: 2rem;
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+.content-vipCardInfo .content-car .moreCar{
+    overflow: hidden;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.content-vipCardInfo .content-car .moreCar a i{
+    color: #F19149;
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+    float: left;
+    line-height: 1.8rem;
+}
+.content-vipCardInfo .content-car .moreCar a span{
+    float: left;
+    line-height: 1.8rem;
+}
+.content-vipCardInfo .list-block .item-title.label{
+    width: auto;
+}
+.vip-addCar{
+    width: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 11000;
+    margin-top: -6rem;
+    top: 50%;
+    opacity: 0;
+    color: #333333;
+    display: none;    
+}
+.vip-addCar.current{
+    display: block;
+    opacity: 1;
+}
+.addCar-Pop{
+    width: 13.5rem;
+    background: #E8E8E8;
+    padding:0.75rem;
+    text-align: center;
+    border-radius: 0.35rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -6.75rem;
+    padding-bottom: 0;
+}
+.vip-addCar .addCar-inner .addCar-input{
+    position: relative;
+}
+.vip-addCar .addCar-inner input{
+    box-sizing: border-box;
+    height: 1.8rem;
+    background: #fff;
+    margin: 0;
+    margin-top: 0.75rem;
+    padding: 0 0.25rem;
+    border: 1px solid #a0a0a0;
+    border-radius: 0.25rem;
+    width: 100%;
+    font-size: 0.7rem;
+    display: block;
+    padding-left: 2.8rem;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.vip-addCar .addCar-inner .addCar-input .addCarBtn{
+    position: absolute;
+    left: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    top: 0;
+    line-height: 1.8rem;
+}
+.vip-addCar .addCar-inner .addCar-input .addCarBtn i{
+    font-size: 0.5rem;
+    margin-left: 0.3rem;
+}
+.addCar-inner-one.hide{
+    display: none;
+}
+.addCar-inner-two{
+    display: none;
+}
+.addCar-inner-two.current{
+    display: block;
+}
+.addCar-inner-two span{
+    color: #2165D2;
+}
+.addCar-inner-two .modal-buttons{
+    border-top: 1px solid #cccccc;
+}
+.addCar-inner-two .addCar-text{
+    margin-bottom: 0.5rem;
+}
+
+/* 会员卡详情样式结束 */
+/* 公告列表样式开始 */
+.content-notice .buttons-tab{
+    background: #f2f2f2;
+}
+.content-notice .content-block{
+    margin: 0;
+    padding: 0;
+}
+.content-notice .content-block .list-block{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.content-notice .content-block ul li{
+    background: #ffffff;
+}
+.content-notice .content-block ul li a.noticeLink{
+    color: #333;
+    display: block;
+    padding: 0 0.5rem;
+    padding-bottom: 0.3rem;   
+}
+.content-notice .content-block ul li a.noticeLink:active{
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+    background-color: #ECECEC;
+}
+.content-notice .content-block ul li a.noticeLink h4{
+    margin: 0;
+    line-height: 2rem;
+    font-size: 0.8rem;
+}
+.content-notice .content-block ul li a.noticeLink h4 span{
+    /* background: red; */
+    color: #FF7C00;
+}
+.content-notice .content-block ul li a.noticeLink p.textP{
+    font-size: 0.7rem;
+    text-indent: 1.5rem;
+    margin:0;
+    color: #999;
+}
+.content-notice .content-block ul li a.noticeLink .row{
+    font-size: 0.65rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+.content-notice .content-block ul li a.noticeLink .row .col-50:last-child{
+    text-align: right;
+}
+/* 公告列表样式结束 */
+/* 个人中心样式开始 */
+.content-personal .personal-bg{
+    background: #025FEC;
+    position: relative;
+    width: 100%;
+    /* padding-bottom: 1rem; */
+    overflow: hidden;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.content-personal .personal-bg .personal-img{
+    margin: 1rem auto;
+}
+.content-personal .personal-bg .personal-img img{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    border: .2rem solid #f8f8f8;
+    background:#f8f8f8;
+}
+.content-personal .list-block{
+    margin: 0.5rem 0;
+}
+.content-personal .list-block ul li .item-inner .item-input input{
+    text-align: right;
+}
+/* 个人中心样式结束 */
+/* 结算方式样式开始 */
+.content-payment{
+    top: 3.2rem;
+}
+.content-payment .content-padded{
+    background: #ffffff;   
+    margin: 0;
+    padding: 0.5rem; 
+    margin-bottom: 0.5rem;
+}
+.content-payment .content-padded .row{
+    margin-left: 0;
+}
+.content-payment .content-padded .row .col-50{
+    margin-left: 0;
+}
+.content-payment .content-Amount .row p.totalAmount,.content-payment .content-Amount .row p.discountAmount{
+    margin: 0.2rem 0;
+    font-size: 0.65rem;
+    color: #999;
+}
+.content-payment .content-Amount .row p.discountAmount input{
+    border: 1px solid #ccc;
+    width: 3rem;
+    border-radius: 3px;
+}
+.content-payment .content-Amount .row p.realAmount{
+    text-align: right;
+}
+.content-payment .content-Amount .row p.realAmount span.realMoney{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.content-payment .content-selectPayment .list-block{
+  margin: 0;
+}
+.content-payment .content-selectPayment .list-block ul{
+}
+.content-payment .content-selectPayment .list-block ul li{
+}
+.content-payment .content-selectPayment .list-block ul li .item-input input{
+    text-align: right;
+}
+.content-payment .content-selectPayment .list-block ul li .item-afterInput{
+    padding-right: 1rem;
+}
+.content-payment .content-selectPayment .list-block ul li .item-afterInput:after{
+    content: "\e609";
+    position: absolute;
+    font-family: 'iconfont';
+    right: 0.6rem;
+    font-size: 0.75rem;
+    color: #ccc;
+    top: 50%;
+    margin-top: -0.55rem;
+}
+.content-payment .list-block .item-title.label{
+    width: auto;
+}
+.paymentPop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../images/layerBg.png) repeat;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    display: none;
+}
+.selectPayment{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    min-height: 2.2rem;
+    bottom: 0;
+    background: #ffffff;
+    padding:0;
+    z-index: 200;  
+    display: none;
+}
+.selectPayment .list-block{
+    margin: 0;
+}
+.selectPayment .list-block ul li{
+    border-bottom: 1px solid #ECECEC;
+}
+.selectPayment .list-block ul li .label-checkbox{
+    padding-right: 0.75rem;
+}
+.selectPayment .row{
+    height: 2.2rem;
+    margin-left: 0;
+}
+.selectPayment .row .col-50{
+    text-align: center;
+    line-height: 2.2rem;
+    background: #cccccc;
+    margin-left: 0;
+    width: 50%;
+}
+.selectPayment .row .col-50.selectPaymentYes{
+    background: #025FEC;
+    color: #fff;
+}
+/* 结算方式样式结束 */
+/* 修改密码样式开始 */
+.content-changePassword .list-block{
+    margin-top: 0.5rem;
+}
+/* 修改密码样式结束 */
+/* 消息样式开始 */
+.content-message .list-block{
+    margin: 0;
+}
+.content-message .list-block ul li{
+    border-bottom: 1px solid #ECECEC;
+}
+.content-message .list-block ul li .item-media{
+    background: #7BCB00;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.content-message .list-block ul li .item-media-two{
+    background: #48D1F2;
+}
+.content-message .list-block ul li .item-media-three{
+    background: #F67576;
+}
+.content-message .list-block ul li .item-media-four{
+    background: #F7A623;
+}
+.content-message .list-block ul li .item-media i{
+    color: #fff;
+    margin: auto;
+    font-size: 1.1rem;
+}
+.content-message .list-block ul li .item-content{
+    padding-left: 0.5rem;
+}
+.content-message .list-block ul li .item-title span{
+    color: #333;
+    font-weight: bold;
+}
+.content-message .list-block ul li .item-text{
+    height: 1.5rem;
+}
+.content-message .list-block ul li .item-text p{
+    margin: 0;
+    margin-top: 0.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.7rem;
+    color: #999;
+}
+.content-message .list-block ul li .item-title-row .item-after{
+    font-size: 0.66rem;
+}
+.content-message ul li .item-content-noRead .item-media{
+    position: relative;
+}
+.content-message ul li .item-content-noRead .item-media:after{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #E65450;
+    content: '';
+    right: 0;
+    top: 0;
+}
+/* 消息样式结束 */
+/* 公告列表样式开始 */
+.content-messageList ul{
+    padding-left: 0;
+    margin-top: 0;
+}
+.content-messageList ul li .issueTime{
+    text-align: center;
+    font-size: 0.65rem;
+    color: #666;
+    margin: 0.3rem 0;
+}
+.content-messageList ul li .card{
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+.content-messageList ul li .card .card-title{
+
+}
+.content-messageList ul li .card .card-title span{
+    color: #333;
+    font-weight: bold;
+}
+.content-messageList ul li .card-content-inner{
+    border-bottom: 1px solid #ECECEC;
+    padding: 0.75rem 0;
+}
+.content-messageList ul li .list-block .item-link{
+    padding-left: 0;
+}
+.content-messageList ul li .list-block .item-link .item-inner{
+    background-position: calc(100% - 0.2rem) center;
+}
+.content-messageList ul li .list-block .item-link:active{
+    background: none !important;
+}
+/* 公告列表样式结束 */
+/* 公告详情样式开始 */
+.content-noticeInfo{
+    background: #fff;
+}
+.content-noticeInfo h3{
+    margin: 0.5rem 0 0.3rem;
+}
+.content-noticeInfo span{
+    font-size: 0.65rem;
+    color: #666;
+}
+.content-noticeInfo p{
+    font-size: 0.65rem;
+    text-indent: 2em;
+}
+/* 公告详情样式结束 */
+/* 我要反馈样式开始 */
+.content-suggestion .suggestionInfo{
+    margin: 0.75rem;
+    background: #ffffff;
+    min-height: 8rem;
+}
+.content-suggestion textarea{
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+}
+/* 我要反馈样式结束 */
+/* 暂无记录样式开始 */
+.content-noRecord .row-record{
+    margin-top: 6rem;
+    text-align: center;
+}
+.content-noRecord .row-record p{
+    display:inline-block;
+    position:relative;
+    padding-left:2.3rem;
+    margin-bottom:1.5rem;
+}
+.content-noRecord .row-record p:before{
+    content: "\e63b";
+    position: absolute;
+    left: 0;
+    font-family: 'iconfont';
+    font-size: 2rem;
+    color: #025FEC;
+    top: -1rem;
+}
+.content-noRecord .row-record p a{
+    position: absolute;
+    left: 0;
+    padding-left: 2.1rem;
+}
+/* 暂无记录样式结束 */
+/* 用class控制一个两个三个按钮自动切换开始*/
+.row-button-one{
+    margin-left: -4%;
+}
+.row-button-one .col-average{
+    width: 96%;
+    margin-left: 4%;
+} 
+.row-button-two{
+    overflow: hidden;
+    margin-left: -4%;
+}
+.row-button-two .col-average{
+    width: 46%;
+    margin-left: 4%;
+    float: left;
+} 
+.row-button-three{
+    overflow: hidden;
+    margin-left: -4%;
+}
+.row-button-three .col-average{
+    width: 29.333333333333332%;
+    margin-left: 4%;
+    box-sizing: border-box;
+    float: left;
+}
+/* 用class控制一个两个三个按钮自动切换结束*/
+/* 我的业绩分析样式开始 */
+.perAnalyze-tab{
+    background: #f2f2f2;
+    position: relative;
+    position: fixed;
+}
+.perAnalyze-tab .dateTip{
+    position: absolute;
+    top: 50%;
+    margin-top: -0.8rem;
+    left: 0;
+    display: none;
+}
+.perAnalyze-tab .dateTip p {
+    margin: 0;
+    line-height: 0.8rem;
+    font-size: 0.45rem;
+    color: #025FEC;
+}
+.perAnalyze-tab .dateTip.current{
+    display: block;
+}
+.perAnalyze-search{
+    background: #fff;
+    height: 5rem;
+    left: 0;
+    top: 2rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    border-bottom: 1px solid #f2f2f2;
+}
+.perAnalyze-search.current{
+    display: block;
+}
+.perAnalyze-search .row {
+    margin-left: 0;
+}
+.perAnalyze-search .col-45 {
+    width: 45%;
+    border: 1px solid #ccc;
+    height: 1.5rem;
+    border-radius: 3px;
+}
+.perAnalyze-search .col-10 {
+    width: 10%;
+    margin-left: 0;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.perAnalyze-search .searchBtn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2px 8px;
+    background: #025FEC;
+    border: none;
+    color: #fff;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.75rem;
+    border-radius: 2px;
+}
+.content-myAnalyze .content-dataShow{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+.content-myAnalyze .content-dataShow .list-block{
+    margin-bottom: 0;
+    margin-top: 2rem !important;
+}
+.content-myAnalyze .content-dataShow .show-block{
+    background: #fff;
+    padding: 0.5rem 0;
+    overflow: hidden;
+    padding-top: 0.75rem;
+}
+.content-myAnalyze .content-dataShow .show-block li {
+    width: 50%;
+    float: left;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+.content-myAnalyze .content-dataShow .show-block li.show-block-profit .content-block {
+    background: #65CEA7;
+}
+.content-myAnalyze .content-dataShow .show-block li .content-block {
+    margin: 0 0.5rem;
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: #fff;
+}
+.content-myAnalyze .content-dataShow .show-block li .content-block .row {
+    text-align: center;
+}
+.content-myAnalyze .content-dataShow .show-block li .content-block .row i {
+    font-size: 1.5rem;
+}
+.content-myAnalyze .content-dataShow .show-block li .content-block .row h4 {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+.content-myAnalyze .content-dataShow .show-block li.show-block-cost .content-block {
+    background: #FF9352;
+}
+.content-myAnalyze .content-carLine{
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+.content-myAnalyze .content-inComeLine{
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+/* 我的业绩分析样式结束 */
+/* 店长分析报表样式开始 */
+.content-bossAnalyze .content-block{
+    margin: 0;
+    padding: 0;
+}
+.content-bossAnalyze .content-block .list-block{
+    margin: 0;
+}
+.content-bossAnalyze .content-block .list-block ul{
+    overflow: hidden;
+}
+.content-bossAnalyze .content-block .list-block ul li{
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 7rem;
+}
+.content-bossAnalyze .content-block .list-block ul li a{
+    display: block;
+    color: #007aff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-bottom: solid 1px #E5E5E5;
+    padding-top: 0.7rem;
+}
+.content-block .list-block ul li:nth-child(2n+1){
+}
+.content-bossAnalyze .content-block .list-block ul li a.fixIncome{
+    background: #267CFD;
+}
+.content-bossAnalyze .content-block .list-block ul li a.fixIncome:before{
+    content: "\e669";
+    display: block;
+    font-family: 'iconfont';
+    font-size: 2.6rem;
+    color: #fff;
+}
+.content-bossAnalyze .content-block .list-block ul li a.stockStructure{
+    background: #5A9BFE;
+}
+.content-bossAnalyze .content-block .list-block ul li a.stockStructure:before{
+    content: "\e61d";
+    display: block;
+    font-family: 'iconfont';
+    font-size: 2.6rem;
+    color: #fff;
+}
+.content-bossAnalyze .content-block .list-block ul li a.fixStyle{
+    background: #32B991;
+}
+.content-bossAnalyze .content-block .list-block ul li a.fixStyle:before{
+    content: "\e64c";
+    display: block;
+    font-family: 'iconfont';
+    font-size: 2.6rem;
+    color: #fff;
+}
+.content-bossAnalyze .content-block .list-block ul li a.fixItem{
+    background: #B4C55C;
+}
+.content-bossAnalyze .content-block .list-block ul li a.fixItem:before{
+    content: "\e615";
+    display: block;
+    font-family: 'iconfont';
+    font-size: 2.6rem;
+    color: #fff;
+}
+.content-bossAnalyze .content-block .list-block ul li a.employeeKPY{
+    background: #FFA300;
+}
+.content-bossAnalyze .content-block .list-block ul li a.employeeKPY:before{
+    content: "\e716";
+    display: block;
+    font-family: 'iconfont';
+    font-size: 2.6rem;
+    color: #fff;
+}
+.content-bossAnalyze .content-block .list-block ul li a.vipCardSell{
+    background: #FF555B;
+}
+.content-bossAnalyze .content-block .list-block ul li a.vipCardSell:before{
+    content: "\e698";
+    display: block;
+    font-family: 'iconfont';
+    font-size: 2.6rem;
+    color: #fff;
+}
+.content-bossAnalyze .content-block .list-block ul li a p{
+    font-size: 0.85rem;
+    margin: 0;
+    color: #fff;
+}
+.content-bossAnalyze .content-block .list-block ul li a i{
+    font-size: 2.6rem;
+}
+/* 店长分析报表样式结束 */
+/* 提醒事项样式开始 */
+.content-remindItem .content-block{
+    margin: 0;
+    background: #fff;
+    padding: 0;
+}
+.content-remindItem .content-block .list-block{
+    margin: 0;
+}
+
+.content-remindItem .content-block .list-block ul li{
+    padding: 0 0.5rem;
+}
+
+.content-remindItem .content-block .list-block ul li:after{
+	content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1px;
+	border-bottom: 1px solid #ECECEC;
+	color: #ECECEC;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+}
+
+.content-remindItem .content-block .list-block ul li a{
+    display: block;
+    overflow: hidden;
+    color: #333;
+    padding: 0.5rem 0;
+    position: relative;
+}
+.content-remindItem .content-block .list-block ul li a:before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    background: #025FEC;
+    left: 0;
+    top: 50%;
+    margin-top: -3px;
+}
+.content-remindItem .content-block .list-block ul li a i{
+    float: left;
+    padding-left: 0.6rem;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:0.7rem;
+    font-style: normal;
+}
+.content-remindItem .content-block .list-block ul li a span{
+    float: right;
+}
+/* 提醒事项样式结束 */
+/* 维修服务收入趋势图样式开始 */
+.content-fixIncome .content-block{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.content-fixIncome .first-content-block{
+    margin-top: 2rem;
+}
+/* 维修服务收入趋势图样式结束 */
+/* 库存结构分析样式开始 */
+.stockStructure-search{
+    height: 8.6rem;
+}
+.stockStructure-search .col-45{
+    height: 1.8rem;
+}
+.stockStructure-search .col-10{
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+.stockStructure-search .list-block{
+    margin-top: 0rem;
+}
+.stockStructure-search .list-block .item-content{
+   padding-left: 0.3rem;
+}
+.stockStructure-search .list-block .item-content i{
+    color: #2165D2;
+    margin-right: 0.3rem;
+}
+.stockStructure-search .list-block ul li{
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+.stockStructure-search .list-block .item-media + .item-inner {
+    margin-left: 0.5rem;
+}
+.stockStructure-search .list-block .item-link .item-inner {
+    background-position: calc(100% - 0.5rem) center;
+}
+.stockStructure-search .list-block .item-input input{
+    text-align: right;
+}
+/* 库存结构分析样式结束 */
+/* 库存结构分析-配件分类样式开始 */
+.content-partsClassify .list-block{
+    margin-top: 0;
+}
+.content-partsClassify .list-block ul li{
+    border-bottom: 1px solid #ECECEC;
+}
+.content-partsClassify .list-block .indent-two {
+    border-top: 1px solid #ECECEC;
+    padding-left: 2rem;
+}
+.content-partsClassify .list-block ul li dl{
+    margin: 0;
+}
+.content-partsClassify .list-block ul li dl dd{
+    margin-left: 0;
+}
+.content-partsClassify .list-block ul li .parts-pull-down{
+    position: relative;
+}
+.content-partsClassify .list-block ul li .parts-pull-down:after{
+    content: '\e609';
+    font-family: 'iconfont';
+    color: #ccc;
+    right: 0.75rem;
+    position: absolute;
+}
+.partsClassify-dl{
+    display: none;
+}
+.content-partsClassify .list-block ul li .parts-pull-down.current:after{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.onedateTip p{
+    line-height: 1.8rem !important;
+    font-size: 0.55rem !important;
+}
+/* 库存结构分析-配件分类样式结束 */
+/* 会员卡产值样式开始 */
+.vipCardSell-search{
+    height: 11rem;
+}
+.vipCardSell-search .list-block{
+    margin-top: 0.5rem;
+}
+.vipCardSell-search .list-block .item-content i{
+    color: #2165D2;
+    margin-right: 0.3rem;
+}
+.vipCardSell-search .list-block .item-link{
+    padding-left: 0.3rem;
+}
+.vipCardSell-search .list-block ul{
+    border: none;
+}
+.vipCardSell-search .list-block ul li{
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+.vipCardSell-search .list-block ul li .vip-row .col-title{
+    height: 2.2rem;
+    line-height: 2.2rem;
+    margin-left: 0.3rem;
+}
+/* 会员卡产值样式结束 */
+.chart-noData{
+    text-align: center;
+}
+.chart-noData i{
+    font-size:10rem;
+    color: #025FEC;
+    text-align: center;
+    position: relative;
+}
+.chart-noData i:before{
+    content: '暂时无数据';
+    position: absolute;
+    font-size: 1rem;
+    left: 20%;
+    top: 45%;
+
+}

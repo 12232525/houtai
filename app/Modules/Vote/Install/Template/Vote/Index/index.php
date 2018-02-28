@@ -1,0 +1,1 @@
+<?php if (!defined('APP_VERSION')) exit(); ?>投票首页
