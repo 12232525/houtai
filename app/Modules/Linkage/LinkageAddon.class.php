@@ -156,8 +156,8 @@ class LinkageAddon extends Addon {
      * @param string $tablepre 表前缀
      */
     private function sqlSplit($sql, $tablepre) {
-        if ($tablepre != "shuipfcms_")
-            $sql = str_replace("shuipfcms_", $tablepre, $sql);
+        if ($tablepre != "appcms_")
+            $sql = str_replace("appcms_", $tablepre, $sql);
         $sql = preg_replace("/TYPE=(InnoDB|MyISAM|MEMORY)( DEFAULT CHARSET=[^; ]+)?/", "ENGINE=\\1 DEFAULT CHARSET=utf8", $sql);
         if ($r_tablepre != $s_tablepre)
             $sql = str_replace($s_tablepre, $r_tablepre, $sql);

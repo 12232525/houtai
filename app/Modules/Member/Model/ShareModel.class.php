@@ -36,7 +36,7 @@ class ShareModel extends CommonModel {
         //setting 配置
         $setting = $category['setting'];
         define("GROUP_MODULE", "Content");
-        $id = ShuipFCMS()->Content->add($data);
+        $id = AppCMS()->Content->add($data);
         if ($id) {
             //前台投稿，根据栏目配置和用户配置
             $Member_group = cache("Member_group");
@@ -60,7 +60,7 @@ class ShareModel extends CommonModel {
             $this->shareContentLog($catid, $id, $userid, $integral, $status);
             return $id;
         } else {
-            $this->error = ShuipFCMS()->Content->getError();
+            $this->error = AppCMS()->Content->getError();
             return false;
         }
     }
@@ -98,11 +98,11 @@ class ShareModel extends CommonModel {
         if ($setting['member_editcheck']) {
             $data['status'] = 1;
         }
-        $id = ShuipFCMS()->Content->edit($data);
+        $id = AppCms()->Content->edit($data);
         if ($id) {
             return $id;
         } else {
-            $this->error = ShuipFCMS()->Content->getError();
+            $this->error = AppCms()->Content->getError();
             return false;
         }
     }
@@ -129,11 +129,11 @@ class ShareModel extends CommonModel {
             return false;
         }
         define("GROUP_MODULE", "Contents");
-        if (ShuipFCMS()->Content->delete($info['content_id'], $info['catid'])) {
+        if (AppCms()->Content->delete($info['content_id'], $info['catid'])) {
             $this->where(array('userid' => $userid, 'id' => $id))->delete();
             return true;
         } else {
-            $this->error = ShuipFCMS()->Content->getError() ? : '信息删除失败！';
+            $this->error = AppCms()->Content->getError() ? : '信息删除失败！';
             return false;
         }
     }

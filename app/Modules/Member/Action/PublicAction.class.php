@@ -189,7 +189,7 @@ class PublicAction extends MemberbaseAction {
                         if (empty($message)) {
                             $message = 'Hi，{$username}:
 
-                                                    欢迎您注册成为 ShuipFCMS 用户，您的账号需要邮箱认证，点击下面链接进行认证：
+                                                    欢迎您注册成为AppCms用户，您的账号需要邮箱认证，点击下面链接进行认证：
 
                                                     <a href="{$url}" target="_blank">{$url}</a>
 
